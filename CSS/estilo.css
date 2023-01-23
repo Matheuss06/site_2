@@ -1,9 +1,20 @@
+.fundo{
+    background-color: rgb(236, 232, 232);
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 
+.padding{
+    padding: 50px;
+    padding-top: 120px;
+}
 
+.font_tamanho{
+    font-size: xx-large;
+}
 
 
 
@@ -40,3 +51,19 @@ header{
 
     border: 1px solid black;
 }
+
+/* ############################# FIM HEADER ################################### */
+
+/* ######################### ENERGIA SOLAR #################################### */
+
+.energiasol{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.imagem_energia{
+    width: 50%;
+}
+
+
+/* ##################### FIM ENERGIA SOLAR #################################### */
