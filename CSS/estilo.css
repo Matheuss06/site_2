@@ -16,8 +16,25 @@ a{
     font-size: xx-large;
 }
 
+.linha{
+    width: 300px;
+    margin-left: 250px;
+}
 
+.linha2{
+    width: 250px;
+    margin-left: 820px;
+}
 
+.titulo{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 40px;
+}
+
+.alinhar{
+    margin-left: 580px;
+}
 
 
 /* ################################ HEADER ################################### */
@@ -29,6 +46,7 @@ header{
 
 .logo{
     background-color: red;
+    padding-right: 50px;
 }
 
 .menu{
@@ -56,7 +74,7 @@ header{
 
 /* ######################### ENERGIA SOLAR #################################### */
 
-.energiasol{
+.flex{
     display: flex;
     justify-content: space-around;   
 }
@@ -67,3 +85,94 @@ header{
 
 
 /* ##################### FIM ENERGIA SOLAR #################################### */
+
+
+/* ##################### INICIO VISAO ######################################### */
+
+.visao{
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.texto_visao{
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens{
+    background-color: purple;
+    color: purple;
+    border: 1px solid purple;
+    margin-top: 70px;
+    padding: 50px;
+    padding-right: 70px;
+}
+
+.texto{
+    background-color: rgb(255, 174, 0);
+    padding-bottom: 80px;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+/* ##################### FIM VISAO ############################################ */
+
+/* ##################### INCIO PRODUTO ############################################ */
+
+.produtos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagens_prod{
+    margin: 0px 50px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    padding: 50px;
+    padding-right: 70px;
+}
+
+/* ##################### FIM PRODUTO ############################################ */
+
+
+/* ##################### INCIO FOOTER ######################################### */
+
+
+
+.form{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.linha_form{
+    height: 50px;
+}
+
+.titulo_form{
+    text-align: center;
+}
+
+.campo_form{
+    outline: none;
+}
+
+.botao_form{
+    text-align: center;
+    padding-top: 2pt;
+    height: 35px;
+    width: 90px;
+    border-radius: 5pt;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.imagem{
+    width: 80%;
+}
