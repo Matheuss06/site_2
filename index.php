@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>Document</title>
 </head>
-<body class="fundo" ng-app="">
+<body class="fundo" ng-app="meuApp" ng-controller="Controlador">
     
     <?php include('header.html')?>
 
@@ -18,49 +18,68 @@
             <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
             
             <div>
-            
-            <p class="padding font_tamanho">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <img src="images/linha.svg" class="linha">
-
+                <p class="padding font_tamanho">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</p>
+                <img src="images/linha.svg" class="linha">
             </div>
         </div>
 
         <div class="visao">
 
             <div class="imagens">
+                <img src="images/visao.png" alt="Visão" class="imagens">
+                <div class="texto">
+                <h4> Visão</h4>    
+                    <p>
+                        Texto
+                    </p>
+                </div>
             </div>
 
             <div class="imagens">
+                <img src="images/alvo.png" alt="Missão" class="imagens">
+                <div class="texto">
+                    <h4> Missão</h4>    
+                    <p>
+                        Texto
+                   </p>
+                </div>
             </div>
 
             <div class="imagens">
+                <img src="images/dinheiro.png" alt="Valores" class="imagens">
+                <div class="texto">
+                    <h4> Valores</h4>
+                    <p>   
+                        Texto
+                    </p> 
+                </div>
             </div>
-
-        </div>
-
-        <div class="texto_visao">
-
-            <div class="texto">
-                Visão <br>
-                Texto
-            </div>
-
-            <div class="texto">
-            &nbsp;&nbsp;Missão <br>
-            &nbsp;&nbsp;Texto
-            </div>
-
-            <div class="texto">
-            &nbsp;Valores <br>
-            &nbsp;Texto
-            </div>
-
         </div>
 
              <div id="titulo">
                 <h1 class="titulo">Serviços</h1>
                 <img src="images/linha.svg" class="linha2">
             </div>
+
+            <div class="servicos">
+                 <ul>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minima dolor blanditiis totam excepturi ipsam alias et natus voluptate, aperiam nemo. Iure voluptas sapiente provident nam laudantium, modi sed at?</p></li>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente ea deserunt consectetur modi quas perspiciatis accusamus libero aspernatur minus sint laboriosam, fugit aliquam et vel! Dignissimos atque exercitationem dolorem!</p></li>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem quibusdam quis, repellat quod aperiam dolor nostrum in optio dolorum ex quos esse omnis ipsa sed eaque maiores beatae voluptate?</p></li>
+                </ul>
+              
+                <ul>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
+                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                </ul></div>
+
 
         <div id="produtos">
 
@@ -69,53 +88,84 @@
                 <img src="images/linha.svg" class="linha2">
             </div>
 
-            <nav class="menu alinhar">
-                <ul>
-                    <li><input type="radio" ng-model="opcao" value="arcondicionado">Ar condicionado</li>
-                    <li><input type="radio" ng-model="opcao" value="inverter">Ar condicionado Inverter</li>
-                    <li><input type="radio" ng-model="opcao" value="multisplit">Multi Split</li>
-                    <li><input type="radio" ng-model="opcao" value="energiasolar">Energia solar</li>
-                </ul>
-            </nav>
+            <div class="produtos w50">
+                    <div ng-mouseover="funcaoArCondicionado()" class="selecionar">Ar condicionado</div>
+                    <div ng-mouseover="funcaoInverter()" class="selecionar">Ar condicionado Inverter</div>
+                    <div ng-mouseover="funcaoMultiSplit()" class="selecionar">Multi Split</div>
+                    <div ng-mouseover="funcaoEnergiaSolar()" class="selecionar">Energia solar</div>
+            </div>
 
-            <div ng-switch="opcao" class="produtos">
-                <div ng-switch-when="arcondicionado" class="produtos">
-                    <div><img src="images/ar_elgin.jfif" alt="Ar Condicionado Elgin" class="imagens_prod"></div> <!-- https://www.sodimac.com.br/sodimac-br/product/870675/eco-plus-gera%C3%A7ao-ii-12000-f-unidade-interna/870675/ -->
-                    <div><img src="images/ar_consul.webp" alt="Ar Condicionado Consul" class="imagens_prod"></div> <!-- https://www.consul.com.br/ar-condicionado-split-9000-btus-consul-frio-maxi-refrigeracao-e-maxi-economia/p?idsku=2004696&utm_source=google&utm_medium=organic&utm_content=shopping -->
-                    <div><img src="images/ar_philco.webp" alt="Ar Condicionado Philco" class="imagens_prod"></div> <!-- https://www.magazineluiza.com.br/ar-condicionado-split-hi-wall-philco-9-000-btus-frio-220v/p/fe39h231ak/ar/arsp/?&seller_id=climario -->
-                    <div><img src="images/ar_lg.webp" alt="Ar Condicionado LG" class="imagens_prod"></div> <!-- https://www.magazineluiza.com.br/ar-condicionado-split-hi-wall-inverter-lg-dual-compact-9000-btu-h-frio-s4nq09wa5ac-eb2gamz-220-volts/p/ba651dkjgj/ar/arar/?&seller_id=friopecas -->
-                    <div><img src="images/ar_electrolux.jpg" alt="Ar Condicionado" class="imagens_prod"></div> <!-- https://www.casasbahia.com.br/ar-condicionado-split-inverter-electrolux-hi-wall-techno-9000-btus-frio-qi09f-12819109/p/12819109?utm_medium=Cpc&utm_source=google_freelisting&IdSku=12819109&idLojista=19937&tipoLojista=3P -->
+            
+                <div ng-show="arcondicionado" class="produtos">
+                    <div><img src="images/ar_elgin.jfif" alt="Ar Condicionado Elgin" class="imagens_prod"></div> 
+                    <div><img src="images/ar_consul.webp" alt="Ar Condicionado Consul" class="imagens_prod"></div> 
+                    <div><img src="images/ar_philco.webp" alt="Ar Condicionado Philco" class="imagens_prod"></div> 
+                    <div><img src="images/ar_lg.webp" alt="Ar Condicionado LG" class="imagens_prod"></div> 
+                    <div><img src="images/ar_electrolux.jpg" alt="Ar Condicionado" class="imagens_prod"></div>
                 </div>
 
-                <div ng-switch-when="inverter" class="produtos">
-                    <div><img src="images/inveter_samsung.jpg" alt="Ar Condicionado inveter samsung" class="imagens_prod"></div> <!-- https://www.kabum.com.br/produto/348190/ar-condicionado-split-samsung-digital-inverter-12-000-btus-frio?srsltid=Ad5pg_HeXEWuGhb8qDDCP6sU_JrknEd8vQE0hXFHbwMla14NkACb4Mfkm_s -->
-                    <div><img src="images/inveter_tcl.webp" alt="Ar Condicionado inveter tcl" class="imagens_prod"></div> <!-- https://www.gazin.com.br/produto/4707/ar-condicionado-split-hi-wall-tcl-9000-btus-filtro-hd-e-modo-eco-frio?voltagem=220-volts&seller_id=6 -->
-                    <div><img src="images/inveter_midea.png" alt="Ar Condicionado inveter midea" class="imagens_prod"></div> <!-- https://www.strar.com.br/ar-condicionado-split-hi-wall-springer-midea-inverter-xtreme-save-connect-9-000-btu-h-frio-220v/p?idsku=1052 -->
-                    <div><img src="images/inveter_lg.webp" alt="Ar Condicionado inveter lg" class="imagens_prod"></div> <!-- https://www.magazineluiza.com.br/ar-condicionado-split-lg-12000-btus-dual-inverter-voice-frio-220v-s4-q12ja315/p/ce5672f170/ar/arsp/?&seller_id=continentalcenter -->
-                    <div><img src="images/inveter_elgin.avif" alt="Ar Condicionado inveter elgin" class="imagens_prod"></div> <!-- https://www.magazineluiza.com.br/ar-condicionado-split-lg-12000-btus-dual-inverter-voice-frio-220v-s4-q12ja315/p/ce5672f170/ar/arsp/?&seller_id=continentalcenter -->
+                <div ng-show="inverter" class="produtos">
+                    <div><img src="images/inveter_samsung.jpg" alt="Ar Condicionado inveter samsung" class="imagens_prod"></div> 
+                    <div><img src="images/inveter_tcl.webp" alt="Ar Condicionado inveter tcl" class="imagens_prod"></div>
+                    <div><img src="images/inveter_midea.png" alt="Ar Condicionado inveter midea" class="imagens_prod"></div>
+                    <div><img src="images/inveter_lg.webp" alt="Ar Condicionado inveter lg" class="imagens_prod"></div>
+                    <div><img src="images/inveter_elgin.avif" alt="Ar Condicionado inveter elgin" class="imagens_prod"></div> 
                 </div>
 
-                <div ng-switch-when="multisplit" class="produtos">
-                    <div><img src="images/multisplit_lg.avif" alt="Ar Condicionado Multisplit lg" class="imagens_prod"></div> <!-- https://www.casasbahia.com.br/ar-condicionado-multi-split-inverter-lg-18000-btus-2x-evap-hw-12000-quente-frio-220v-1553528148/p/1553528148?utm_medium=Cpc&utm_source=google_freelisting&IdSku=1553528148&idLojista=10497&tipoLojista=3P -->
-                    <div><img src="images/multisplit_fujitsu.png" alt="Ar Condicionado Multisplit fujitsu" class="imagens_prod"></div> <!-- https://www.poloar.com.br/ar-condicionado-multi-split-fujitsu-48000-btu-h-1x-7000-e-2x-24000-quente-frio-220v/p?idsku=986 -->
-                    <div><img src="images/multisplit_daikin.avif" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div> <!-- https://www.arcerto.com/produto/ar-condicionado-multi-split-inverter-daikin-18000-btuh-quente-e-frio-12-12-220v/ -->
-                    <div><img src="images/multisplit_midea.webp" alt="Ar Condicionado Multisplit midea" class="imagens_prod"></div> <!-- https://www.magazineluiza.com.br/ar-condicionado-multi-tri-split-hw-inverter-springer-midea-3x9000-btus-quente-frio-220v-38mbta27m5/p/hadg89ej5e/ar/arar/?&seller_id=centralar -->
-                    <div><img src="images/multisplit_samsung.webp" alt="Ar Condicionado Multisplit samsung" class="imagens_prod"></div> <!-- https://www.americanas.com.br/produto/6906645622?opn=YSMESP&offerId=63a3065f401db3b86b404c69&srsltid=Ad5pg_Fifhyzw0pVp6NVH0Rq5VeaMJLKjSDuRfzXXlT8mqreZrk2ZJsEJ2E -->
+                <div ng-show="multisplit" class="produtos">
+                    <div><img src="images/multisplit_lg.avif" alt="Ar Condicionado Multisplit lg" class="imagens_prod"></div>
+                    <div><img src="images/multisplit_fujitsu.png" alt="Ar Condicionado Multisplit fujitsu" class="imagens_prod"></div>
+                    <div><img src="images/multisplit_daikin.avif" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div> 
+                    <div><img src="images/multisplit_midea.webp" alt="Ar Condicionado Multisplit midea" class="imagens_prod"></div> 
+                    <div><img src="images/multisplit_samsung.webp" alt="Ar Condicionado Multisplit samsung" class="imagens_prod"></div> 
                 </div>
 
-                <div ng-switch-when="energiasolar" class="produtos">
+                <div ng-show="energiasolar" class="produtos">
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div> <!-- https://www.neosolar.com.br/loja/kit-energia-solar-fotovoltaico-930wp-24.html -->
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                 </div>
-        </div>
-
-       
-
     </div>
 
+    <script>
+        var app = angular.module('meuApp', []);
+        app.controller('Controlador', function($scope){
+            $scope.arcondicionado = true;
+            $scope.inverter = false;
+            $scope.multisplit = false;
+            $scope.energiasolar = false;
+
+            $scope.funcaoArCondicionado = function(){
+                $scope.arcondicionado = true;
+                $scope.inverter = false;
+                $scope.multisplit = false;
+                $scope.energiasolar = false;
+            }
+
+            $scope.funcaoInverter = function(){
+                $scope.inverter = true;
+                $scope.arcondicionado = false;
+                $scope.multisplit = false;
+                $scope.energiasolar = false;
+            }
+
+            $scope.funcaoMultiSplit = function(){
+                $scope.multisplit = true;
+                $scope.arcondicionado = false;
+                $scope.inverter = false;
+                $scope.energiasolar = false;
+            }
+
+            $scope.funcaoEnergiaSolar = function(){
+                $scope.energiasolar = true;
+                $scope.arcondicionado = false;
+                $scope.inverter = false;
+                $scope.multisplit = false;
+            }
+        })
+    </script>
 <?php include 'footer.html'?>
 </body>
 </html>

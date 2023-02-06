@@ -1,5 +1,5 @@
 .fundo{
-    background-color: rgb(236, 232, 232);
+    background-color: #eaedef;
 }
 
 a{
@@ -13,18 +13,19 @@ a{
 }
 
 .font_tamanho{
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 .linha{
     width: 300px;
-    margin-left: 250px;
+    margin-left: 180px;
+    margin-top: -50px;
 }
 
 .linha2{
-    width: 250px;
-    margin-left: 820px;
-    margin-bottom: -5px;
+    width: 220px;
+    margin-left: 830px;
+    margin-top: -30px;
 }
 
 .titulo{
@@ -67,6 +68,7 @@ header{
     display: inline-block;
     padding: 10px 10px;
     margin: 0px 5px;
+    border: 1px solid #eaedef;
 }
 
 .menu li:hover{
@@ -100,18 +102,13 @@ header{
 }
 
 .texto_visao{
-    background-color: rgb(255, 174, 0);
-    display: flex;
-    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .imagens{
-    background-color: purple;
-    color: purple;
-    border: 1px solid purple;
-    margin-top: 70px;
-    padding: 50px;
-    padding-right: 70px;
+    width: 150px;
+    margin-top: 5px;
 }
 
 .texto{
@@ -119,8 +116,9 @@ header{
     padding-bottom: 80px;
     font-weight: bold;
     font-size: x-large;
-
+    text-align: center;
 }
+
 /* ##################### FIM VISAO ############################################ */
 
 /* ##################### INCIO PRODUTO ############################################ */
@@ -138,15 +136,59 @@ header{
 }
 
 .imagens_prod:hover{
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.8s ease;
-    transition: all 0.8s ease;
+    -webkit-transition: all 1.3s ease;
+    -o-transition: all 1.8s ease;
+    transition: all 1.2s ease;
     -webkit-transform: scale(1.0);
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.selecionar{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #eaedef;
+}
+
+.selecionar:hover{
+    color: rgb(0, 122, 223);
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.w50{
+    width: 50%;
+    margin: 20px auto;
 }
 
 /* ##################### FIM PRODUTO ############################################ */
 
+/* ##################### INCIO SERVIÇO ############################################ */
+
+.servicos{
+     display: flex;
+     flex-direction: column;
+}
+
+.servicos ul{
+     display: flex;
+     justify-content: center;
+}
+
+.servicos ul li{
+     width: 18%;
+     list-style: none; 
+     padding-right: 14px;
+}
+
+.img_servico{
+    width: 100%;
+}
+
+/* ##################### FIM SERVIÇO ############################################ */
 
 /* ##################### INCIO FOOTER ######################################### */
 
@@ -180,6 +222,11 @@ header{
     border-radius: 5pt;
     font-size: 12pt;
     font-weight: bold;
+}
+
+.botao_form:hover{
+    color: white;
+    background-color: black;
 }
 
 .imagem{
