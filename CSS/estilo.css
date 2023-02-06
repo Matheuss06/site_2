@@ -10,17 +10,21 @@ a{
 .padding{
     padding: 50px;
     padding-top: 120px;
+    
 }
 
 .font_tamanho{
-    font-size: 50px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .linha{
-    width: 300px;
-    margin-left: 180px;
-    margin-top: -50px;
+    width: 80%;
 }
+
 
 .linha2{
     width: 220px;

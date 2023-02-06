@@ -18,8 +18,9 @@
             <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
             
             <div>
-                <p class="padding font_tamanho">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</p>
+                <p class="padding font_tamanho">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
                 <img src="images/linha.svg" class="linha">
+                </p>
             </div>
         </div>
 
