@@ -15,8 +15,11 @@
     <div class="container">
 
         <div class="flex">
+
+            <div>
             <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
-            
+            </div>
+
             <div>
                 <p class="padding font_tamanho">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
                 <img src="images/linha.svg" class="linha">
@@ -30,8 +33,8 @@
                 <img src="images/visao.png" alt="Visão" class="imagens">
                 <div class="texto">
                 <h4> Visão</h4>    
-                    <p>
-                        Texto
+                    <p class="texto_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
                     </p>
                 </div>
             </div>
@@ -40,8 +43,8 @@
                 <img src="images/alvo.png" alt="Missão" class="imagens">
                 <div class="texto">
                     <h4> Missão</h4>    
-                    <p>
-                        Texto
+                    <p class="texto_p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
                    </p>
                 </div>
             </div>
@@ -50,16 +53,15 @@
                 <img src="images/dinheiro.png" alt="Valores" class="imagens">
                 <div class="texto">
                     <h4> Valores</h4>
-                    <p>   
-                        Texto
+                    <p class="texto_p">   
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
                     </p> 
                 </div>
             </div>
         </div>
 
-             <div id="titulo">
-                <h1 class="titulo">Serviços</h1>
-                <img src="images/linha.svg" class="linha2">
+        <div id="titulo" class="flex">
+            <h1 class="titulo">Serviços <img src="images/linha.svg" class="linha2"></h1> 
             </div>
 
             <div class="servicos">
@@ -79,14 +81,23 @@
                     <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
                     <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
-                </ul></div>
+                </ul>
+            </div>
 
+        <div class="flex margin">
 
+            <div>
+                <span class="flex imagemdiv"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.</p>
+            </div>
+
+            <img src="images/logo_arescold.png" alt="logotipo">
+        </div>
+            
         <div id="produtos">
 
-            <div id="titulo">
-                <h1 class="titulo">Produtos</h1>
-                <img src="images/linha.svg" class="linha2">
+            <div id="titulo" class="flex">
+            <h1 class="titulo">Produtos <img src="images/linha.svg" class="linha2"></h1> 
             </div>
 
             <div class="produtos w50">
@@ -128,7 +139,7 @@
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                 </div>
-    </div>
+        </div>
 
     <script>
         var app = angular.module('meuApp', []);

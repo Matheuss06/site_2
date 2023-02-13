@@ -27,9 +27,7 @@ a{
 
 
 .linha2{
-    width: 220px;
-    margin-left: 830px;
-    margin-top: -30px;
+    width: 80%;
 }
 
 .titulo{
@@ -39,7 +37,12 @@ a{
 }
 
 .alinhar{
-    margin-left: 580px;
+    margin-left: 280px;
+}
+
+.margin{
+    margin: 0 auto;
+    width: 95%;
 }
 
 
@@ -123,6 +126,10 @@ header{
     text-align: center;
 }
 
+.texto_p{
+    font-size: 15px;
+}
+
 /* ##################### FIM VISAO ############################################ */
 
 /* ##################### INCIO PRODUTO ############################################ */
@@ -196,7 +203,9 @@ header{
 
 /* ##################### INCIO FOOTER ######################################### */
 
-
+.titulo_contato{
+    margin: 0 auto;
+}
 
 .form{
     display: flex;
@@ -233,8 +242,11 @@ header{
     background-color: black;
 }
 
+.imagemdiv{
+    width: 50%;
+}
+
 .imagem{
     width: 80%;
-    margin: 0px auto;
 }
 
