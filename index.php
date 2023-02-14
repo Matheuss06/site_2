@@ -88,7 +88,9 @@
 
             <div>
                 <span class="flex texto_sobre"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.</p>
+                <p class="sobre_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta natus laboriosam nemo minus quidem nesciunt, sequi, quo quaerat ratione numquam magnam sint quia voluptatibus dolorem officiis quis quisquam placeat obcaecati.
+                </p>
             </div>
 
             <img src="images/logo_arescold_preto.png" alt="logotipo">

@@ -1,3 +1,8 @@
+.container{
+    margin: 0 auto;
+    width: 95%;
+}
+
 .fundo{
     background-color: #eaedef;
 }
@@ -102,7 +107,7 @@ header{
 /* ##################### INICIO VISAO ######################################### */
 
 .visao{
-    background-color: rgb(255, 174, 0);
+    background-color: rgb(100, 183, 238);
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
@@ -119,7 +124,7 @@ header{
 }
 
 .texto{
-    background-color: rgb(255, 174, 0);
+    background-color:  rgb(100, 183, 238);
     padding-bottom: 80px;
     font-weight: bold;
     font-size: x-large;
@@ -205,6 +210,11 @@ header{
 
 .texto_sobre{
     width: 75%;
+}
+
+.sobre_p{
+    width: 80%;
+    margin: 0 auto;
 }
 
 
