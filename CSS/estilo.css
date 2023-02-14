@@ -1,6 +1,5 @@
-.container{
-    margin: 0 auto;
-    width: 95%;
+.cor_azul{
+    background-color: rgb(100, 183, 238);
 }
 
 .fundo{
@@ -30,15 +29,19 @@ a{
     width: 80%;
 }
 
-
 .linha2{
-    width: 80%;
+    width: 180px;
 }
 
 .titulo{
-    font-variant: small-caps;
+    font-size: 2em;
     text-align: center;
-    font-size: 40px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    font-family: 'titulos', sans-serif;
 }
 
 .alinhar{
@@ -229,22 +232,32 @@ header{
 
 .form{
     display: flex;
-    width: 100%;
-    padding: 50px;
-    text-align: center;
+    gap: 20px;
     justify-content: center;
-}
-
-.linha_form{
-    height: 50px;
-}
-
-.titulo_form{
-    text-align: center;
 }
 
 .campo_form{
     outline: none;
+    background-color: rgb(100, 183, 238);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 30.50%;
+}
+
+.campo_form_msg{
+    outline: none;
+    background-color: rgb(100, 183, 238);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 64%;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
 }
 
 .botao_form{
@@ -252,14 +265,17 @@ header{
     padding-top: 2pt;
     height: 35px;
     width: 90px;
-    border-radius: 5pt;
     font-size: 12pt;
     font-weight: bold;
+    background-color: rgb(100, 183, 238);
+    color: white;
+    border: 2px solid white;
 }
 
 .botao_form:hover{
-    color: white;
-    background-color: black;
+    color:  rgb(100, 183, 238);
+    background-color: white;
+    cursor: pointer;
 }
 
 .imagemdiv{
@@ -270,3 +286,20 @@ header{
     width: 80%;
 }
 
+.p_contato{
+
+}
+
+.imgs{
+    gap: 10px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.img_rede{
+    width: 25px;
+    padding: 10px;
+    border: 1px solid black;
+}

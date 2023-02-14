@@ -1,56 +1,47 @@
-<footer>
-
-    
-
-<div class="flex">
+<footer>    
+<hr>
+<div style="display: flex;">
 
     <div class="imagemdiv">
         <img src="images/ar_condicionado.png" class="imagem">
     </div>
 
 
-    <div>
-        <h1 class="titulo_contato">Produtos <img src="images/linha.svg" class="linha2 titulo_contato"></h1> 
+    <div class="cor_azul" style="width: 50%;">
+        <span class="texto_sobre"><h1 class="titulo">Contato<img src="images/linha.svg" class="linha2"></h1></span>
      
-        <form class="form">     
-            <table>
-                <tr class="linha_form">
-                    <td> 
-                        <label class="titulo_form" for="nome">Nome</label>
-                    </td>
-                            
-                    <td>
-                        <input class="campo_form" type="text" id="nome" name="nome" size="50" required>
-                    </td>     
-                </tr>
-                    
-                <tr class="linha_form">
-                    <td> 
-                        <label class="titulo_form" for="email">E-mail</label>
-                    </td>
+        <div style="display: flex; justify-content: space-around; margin-left: 50px;">
+            <span><h3 style="font-size:x-large;">Endereço</h3>
+                <p>Av. Itaquera, 859</p>
+            </span>
+            
+            <span><h3 style="font-size:x-large;">Entre em Contato</h3>
+                <p>(11) 4002-8922</p>
+            </span>
+        </div>
 
-                    <td>
-                        <input class="campo_form" type="text" id="email" name="email" size="50" required>
-                    </td>
-                </tr>
-                    
-                <tr class="linha_form">
-                    <td> 
-                        <label class="titulo_form" for="mensagem">Mensagem</label>
-                    </td>
 
-                    <td>
-                        <input class="campo_form" type="text" id="mensagem" name="mensagem" size="50" required>
-                    </td>
-                </tr>
+        <div class="form" style="margin-top: 50px;"> 
 
-                <tr class="linha_form">
-                    <td colspan="2">
-                        <input class="botao_form" name="enviar" type="submit" id="enviar" value="Enviar">
-                    </td>
-                </tr>   
-            </table>
-        </form>     
+            <input class="campo_form"type="text" id="nome" name="nome" size="20" placeholder="Nome" required>
+            <input class="campo_form" type="text" id="email" name="email" size="20" placeholder="E-mail"required>
+          
+        </div>
+ 
+        <div class="form" style="margin-top: 50px;">
+
+            <input class="campo_form_msg" type="text" id="mensagem" name="mensagem" size="50" placeholder="Mensagem"required>
+
+        </div>   
+             
+        <div class="botao">
+            <input class="botao_form" name="enviar" type="submit" id="enviar" value="Enviar">
+        </div>
+
+        <div class="imgs">
+            <img class="img_rede" src="images/icone_fb.svg" alt="Logo facebook">
+            <img class="img_rede" src="images/icone_insta.svg" alt="Logo instagram">
+        </div>
     </div>
 </div>
 </footer>

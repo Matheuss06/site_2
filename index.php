@@ -12,7 +12,7 @@
     
     <?php include('header.html')?>
 
-    <div class="container">
+
 
         <div class="flex">
 
@@ -27,15 +27,15 @@
             </div>
         </div>
 
-        <div class="visao">
+        <section class="visao">
 
             <div class="imagens">
                 <img src="images/visao.png" alt="Visão" class="imagens">
                 <div class="texto">
-                <h4> Visão</h4>    
-                    <p class="texto_p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
-                    </p>
+                    <h4> Visão</h4>    
+                        <p class="texto_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
+                        </p>
                 </div>
             </div>
 
@@ -58,11 +58,11 @@
                     </p> 
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div id="titulo" class="flex">
-            <h1 class="titulo">Serviços <img src="images/linha.svg" class="linha2"></h1> 
-            </div>
+        <div>
+            <h1 class="titulo">Serviços<img src="images/linha.svg" class="linha2"></h1> 
+        </div>
 
             <div class="servicos">
                  <ul>
@@ -84,7 +84,7 @@
                 </ul>
             </div>
 
-        <div class="flex margin">
+        <div class="flex margin cor_azul">
 
             <div>
                 <span class="flex texto_sobre"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
@@ -141,7 +141,7 @@
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                     <div><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                 </div>
-        </div>
+
 
     <script>
         var app = angular.module('meuApp', []);
