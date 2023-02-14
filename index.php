@@ -87,11 +87,11 @@
         <div class="flex margin">
 
             <div>
-                <span class="flex imagemdiv"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
+                <span class="flex texto_sobre"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.</p>
             </div>
 
-            <img src="images/logo_arescold.png" alt="logotipo">
+            <img src="images/logo_arescold_preto.png" alt="logotipo">
         </div>
             
         <div id="produtos">
