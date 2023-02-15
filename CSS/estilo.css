@@ -77,17 +77,32 @@ header{
 
 .menu ul{
     list-style: none;
+    display: flex;
+    gap: 25px;
 }
 
 .menu li{
     display: inline-block;
-    padding: 10px 10px;
-    margin: 0px 5px;
-    border: 1px solid #eaedef;
+    position: relative;
+    cursor: pointer;
 }
 
-.menu li:hover{
-    border: 1px solid black;
+.menu li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+    border-radius: 4px;
+    scale: 0 1;
+    transform-origin: left;
+    transition: 0.35s;
+}
+
+.menu li:hover::before{
+    scale: 1;
 }
 
 /* ############################# FIM HEADER ################################### */
@@ -149,8 +164,7 @@ header{
 
 .imagens_prod{
     margin: 0px 50px;
-    border: 3px solid black;
-    border-radius: 30px;
+    border: 1px solid white;
     width: 250px;
 }
 
@@ -160,6 +174,7 @@ header{
     transition: all 1.2s ease;
     -webkit-transform: scale(1.0);
     transform: scale(1.1);
+    border: 1px solid rgb(112, 188, 211);
 }
 
 .selecionar{
@@ -168,14 +183,15 @@ header{
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
-    border: 1px solid #eaedef;
+    border: 1px solid white;
 }
 
 .selecionar:hover{
     color: rgb(0, 122, 223);
     font-weight: bold;
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid  rgb(112, 188, 211);
+    transition: all 1.2s ease;
 }
 
 .w50{
