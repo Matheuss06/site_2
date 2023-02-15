@@ -26,7 +26,7 @@
                 </p>
             </div>
         </div>
-        <hr>
+
         
         <section class="visao">
 
