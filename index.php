@@ -14,7 +14,7 @@
 
 
 
-        <div class="flex">
+        <div class="flex fundo">
 
             <div>
             <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
@@ -26,7 +26,8 @@
                 </p>
             </div>
         </div>
-
+        <hr>
+        
         <section class="visao">
 
             <div class="imagens">
@@ -60,7 +61,7 @@
             </div>
         </section>
 
-        <div>
+        <div id="Servicos">
             <h1 class="titulo">Serviços<img src="images/linha.svg" class="linha2"></h1> 
         </div>
 
@@ -86,7 +87,7 @@
 
         <div class="flex margin cor_azul">
 
-            <div>
+            <div id="Sobre">
                 <span class="flex texto_sobre"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
                 <p class="sobre_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta natus laboriosam nemo minus quidem nesciunt, sequi, quo quaerat ratione numquam magnam sint quia voluptatibus dolorem officiis quis quisquam placeat obcaecati.
@@ -96,7 +97,7 @@
             <img src="images/logo_arescold_preto.png" alt="logotipo" style="margin: 25px;">
         </div>
             
-        <div id="produtos">
+        <div id="Produtos">
 
             <div id="titulo" class="flex">
             <h1 class="titulo">Produtos <img src="images/linha.svg" class="linha2"></h1> 

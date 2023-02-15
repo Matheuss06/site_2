@@ -70,39 +70,54 @@ header{
 }
 
 .menu{
-    display: inline-block;
-    margin-right: 400px;
-    font-size: large;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
 }
 
 .menu ul{
-    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    gap: 25px;
+    list-style: none;
 }
 
-.menu li{
-    display: inline-block;
+.menu ul li a{
+    color: #272727;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 0px 10px;
     position: relative;
-    cursor: pointer;
+    transition: all .5s;
 }
 
-.menu li::before{
-    content: '';
+.menu a:hover{
+    background-color: rgb(100, 183, 238);
+    color: white;
+}
+
+.menu a:before{
+    content: "";
     position: absolute;
-    left: 0;
-    bottom: -2px;
-    width: 100%;
-    height: 2px;
-    background-color: aqua;
-    border-radius: 4px;
-    scale: 0 1;
-    transform-origin: left;
-    transition: 0.35s;
+    bottom: 12px;
+    left: 12px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid rgb(100, 183, 238);
+    border-width: 0 0 3px 3px;
+    opacity: 0;
+    transition: all 0.3s;
 }
 
-.menu li:hover::before{
-    scale: 1;
+
+.menu a:hover::before{
+    opacity: 1;
+    bottom: -8px;
+    left: -8px;
 }
 
 /* ############################# FIM HEADER ################################### */
