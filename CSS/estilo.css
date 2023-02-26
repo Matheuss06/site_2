@@ -11,6 +11,10 @@ a{
     color: black;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .padding{
     padding: 50px;
     padding-top: 120px;
@@ -51,6 +55,24 @@ a{
 .margin{
     margin: 0 auto;
     width: 100%;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+    background-color: #a0d5f8;
+    border: 1px solid #a0d5f8;
+}
+
+.seta{
+   margin-top: 15px;
+   width: 100px;
+   aspect-ratio: 3/2;
+   object-fit: contain;
 }
 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" id="topo">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +9,10 @@
     <title>Document</title>
 </head>
 <body ng-app="meuApp" ng-controller="Controlador">
+   
+    <a href="#topo"><span class="quadrado"><img src="images/seta.webp" class="seta"></a></span>
     
     <?php include('header.html')?>
-
-
 
         <div class="flex fundo">
 
@@ -143,7 +143,6 @@
                     <div><a href="produto_detalhe.php?id="></a><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div>
                 </div>
 
-
     <script>
         var app = angular.module('meuApp', []);
         app.controller('Controlador', function($scope){
@@ -182,5 +181,13 @@
         })
     </script>
 <?php include 'footer.html'?>
+
 </body>
+
+<script>
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    })
+</script>
 </html>
