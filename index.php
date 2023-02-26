@@ -10,55 +10,59 @@
 </head>
 <body ng-app="meuApp" ng-controller="Controlador">
    
-    <a href="#topo"><span class="quadrado"><img src="images/seta.webp" class="seta"></a></span>
+    <a href="#topo">
+        <span class="quadrado">
+            <img src="images/seta.webp" class="seta">
+        </span>
+    </a>
     
     <?php include('header.html')?>
 
-        <div class="flex fundo">
+        <section class="flex fundo">
 
-            <div>
-            <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
-            </div>
+            <article>
+                <img src="images/energia_solar.png" alt="energia solar" class="imagem_energia">
+            </article>
 
-            <div>
+            <article>
                 <p class="padding font_tamanho">Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.
                 <img src="images/linha.svg" class="linha">
                 </p>
-            </div>
-        </div>
+            </article>
+        </section>
 
         
         <section class="visao">
 
-            <div class="imagens">
+            <article class="imagens">
                 <img src="images/visao.png" alt="Visão" class="imagens">
-                <div class="texto">
-                    <h4> Visão</h4>    
+                    <div class="texto">
+                        <h4>Visão</h4>    
                         <p class="texto_p">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
                         </p>
-                </div>
-            </div>
+                    </div>
+            </article>
 
-            <div class="imagens">
+            <article class="imagens">
                 <img src="images/alvo.png" alt="Missão" class="imagens">
-                <div class="texto">
-                    <h4> Missão</h4>    
-                    <p class="texto_p">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
-                   </p>
-                </div>
-            </div>
+                    <div class="texto">
+                        <h4>Missão</h4>    
+                        <p class="texto_p">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
+                        </p>
+                    </div>
+            </article>
 
-            <div class="imagens">
+            <article class="imagens">
                 <img src="images/dinheiro.png" alt="Valores" class="imagens">
-                <div class="texto">
-                    <h4> Valores</h4>
-                    <p class="texto_p">   
+                    <div class="texto">
+                        <h4> Valores</h4>
+                        <p class="texto_p">   
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
-                    </p> 
-                </div>
-            </div>
+                        </p> 
+                    </div>
+            </article>
         </section>
 
         <div id="Servicos">
@@ -88,8 +92,15 @@
         <div class="flex margin cor_azul">
 
             <div id="Sobre">
-                <span class="flex texto_sobre"><h1 class="titulo alinhar">Sobre nós<img src="images/linha.svg" class="linha2"></h1></span>
-                <p class="sobre_p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.
+                <span class="flex texto_sobre">
+                    <h1 class="titulo alinhar">
+                        Sobre nós
+                        <img src="images/linha.svg" class="linha2">
+                    </h1>
+                </span>
+
+                <p class="sobre_p">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt distinctio rem nihil, reiciendis cupiditate saepe accusantium quidem animi? Fugit laboriosam delectus vitae ad maxime beatae accusamus voluptatem assumenda debitis laborum.
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta natus laboriosam nemo minus quidem nesciunt, sequi, quo quaerat ratione numquam magnam sint quia voluptatibus dolorem officiis quis quisquam placeat obcaecati.
                 </p>
             </div>
@@ -100,7 +111,10 @@
         <div id="Produtos">
 
             <div id="titulo" class="flex">
-            <h1 class="titulo">Produtos <img src="images/linha.svg" class="linha2"></h1> 
+                <h1 class="titulo">
+                    Produtos 
+                    <img src="images/linha.svg" class="linha2">
+                </h1> 
             </div>
 
             <div class="produtos w50">
@@ -180,6 +194,7 @@
             }
         })
     </script>
+
 <?php include 'footer.html'?>
 
 </body>
@@ -190,4 +205,5 @@
         behavior: 'smooth'
     })
 </script>
+
 </html>
