@@ -40,33 +40,31 @@ $id = $_GET['id'];
 </header>
 
     <section>
-
-        <div >
+        <div class="flex">
             
-        <div>
-             <img src="<?php echo $dado['imagem']; ?>" alt="" style='width:25%';>
-        </div>
+            <div style="width: 80%;">
+                <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
+            </div>
 
-        <div id="area-dados">
-            <h2><?php echo $dado['nome']; ?></h2>
-            <span id="img-linha">
+            <div class="texto_detalhe">
+                <h2 class="titulo_detalhe"><?php echo $dado['nome']; ?></h2>
 
-            <p id="descricao">
-                <?php echo mb_strimwidth($dado['descricao'],0,341,'<span>&nbsp;Ver mais...</span>');?>
-            </p>
-
-            <div id="dados-preco">
-                <h3>R$<?php echo number_format(($dado['preco']),2,',','.');?>
-                </h3>
-                <p>até <span class="promo">5x
-                </span> de <span class="promo">R$<?php echo number_format(($dado['preco']/5),2,',','.');?></span> 
-                sem juros
+                <p id="descricao">
+                    <?php echo mb_strimwidth($dado['descricao'],0,341,'<span>&nbsp;Ver mais...</span>');?>
                 </p>
-            </div>
-        
-            <div>
-                <button>Comprar</button>
-            </div>
+
+                <div id="dados-preco">
+                    <h3>R$<?php echo number_format(($dado['preco']),2,',','.');?>
+                    </h3>
+                    <p>até <span class="promo">5x
+                    </span> de <span class="promo">R$<?php echo number_format(($dado['preco']/5),2,',','.');?></span> 
+                    sem juros
+                    </p>
+                </div>
+            
+                <div>
+                    <button class="botao_detalhe">Comprar</button>
+                </div>
         </div>
         <?php }}?>
     </section>

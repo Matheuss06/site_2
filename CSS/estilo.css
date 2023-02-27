@@ -283,6 +283,26 @@ header{
 
 /* ##################### FIM SOBRE NÓS ############################################ */
 
+/* ##################### INICIO PRODUTO DETALHES ################################## */
+
+.img_detalhe{
+    width: 100%;
+}
+
+.texto_detalhe{
+    margin: 75px;
+}
+
+.titulo_detalhe{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+botao_detalhe{
+    padding: 10px;
+}
+/* ##################### FIM PRODUTO DETALHES ##################################### */
+
 
 /* ##################### INCIO FOOTER ############################################# */
 
