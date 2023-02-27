@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    cursor: url(../images/cursor.cur), default;
+}
+
 .cor_azul{
     background-color: rgb(100, 183, 238);
 }
@@ -62,21 +66,19 @@ a{
 }
 
 .quadrado{
-    width: 100px;
-    height: 100px;
     position: fixed;
-    border-radius: 50%;
-    bottom: 30px;
-    right: 30px;
-    background-color: #a0d5f8;
-    border: 1px solid #a0d5f8;
-}
-
-.seta{
-   margin-top: 15px;
-   width: 100px;
-   aspect-ratio: 3/2;
-   object-fit: contain;
+    background-color: rgb(185, 209, 253);
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    top: 90%;
+    left: 95%;
+    align-items: center;
+    cursor: url(../images/cursor-pointer.cur), pointer;
+    transition: 0.2s ease-in;
+    z-index: 999;
 }
 
 /* ################################ HEADER ################################### */
@@ -95,7 +97,7 @@ header{
 }
 
 .menu{
-    margin: 0;
+    margin: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,18 +113,20 @@ header{
 
 .menu ul li a{
     color: #272727;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     padding: 5px 10px;
     margin: 0px 10px;
     position: relative;
     transition: all .5s;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .menu a:hover{
     background-color: rgb(100, 183, 238);
     color: white;
+
 }
 
 .menu a:before{
@@ -136,6 +140,7 @@ header{
     border-width: 0 0 3px 3px;
     opacity: 0;
     transition: all 0.3s;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 
@@ -202,6 +207,7 @@ header{
     margin: 0px 50px;
     border: 1px solid white;
     width: 250px;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .imagens_prod:hover{
@@ -220,6 +226,7 @@ header{
     font-weight: bold;
     padding: 10px;
     border: 1px solid white;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .selecionar:hover{
