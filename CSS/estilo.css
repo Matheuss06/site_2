@@ -81,6 +81,11 @@ a{
     z-index: 999;
 }
 
+.quadrado:hover{
+    box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
+    color: white;
+}
+
 /* ################################ HEADER ################################### */
 
 header{
@@ -377,12 +382,16 @@ header{
     background-color: rgb(100, 183, 238);
     color: white;
     border: 2px solid white;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .botao_form:hover{
     color:  rgb(100, 183, 238);
     background-color: white;
-    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
+    cursor: url(../images/cursor-pointer.cur), pointer;
+    transition: 1s ease;
 }
 
 .imagemdiv{
