@@ -183,7 +183,6 @@ header{
 
 .texto{
     background-color:  rgb(100, 183, 238);
-    padding-bottom: 80px;
     font-weight: bold;
     font-size: x-large;
     text-align: center;
@@ -191,6 +190,8 @@ header{
 
 .texto_p{
     font-size: 15px;
+    width: 180px;
+    text-align: start;
 }
 
 /* ##################### FIM VISAO ################################################ */
@@ -260,7 +261,7 @@ header{
 .servicos ul li{
      width: 18%;
      list-style: none; 
-     padding-right: 14px;
+     padding-right: 5px;
 }
 
 .img_servico{
@@ -271,6 +272,11 @@ header{
 
 
 /* ##################### INCIO SOBRE NÓS ############################################ */
+
+.tamanhosb{
+    margin-right: 80px;
+    
+}
 
 .texto_sobre{
     width: 75%;

@@ -70,6 +70,6 @@ $id = $_GET['id'];
         <?php }}?>
     </section>
 
-
+<?php include 'footer.html';?>
 </body>
 </html>

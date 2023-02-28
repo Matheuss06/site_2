@@ -53,7 +53,7 @@
                     <div class="texto">
                         <h4>Missão</h4>    
                         <p class="texto_p">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. lorem
                         </p>
                     </div>
             </article>
@@ -96,7 +96,7 @@
         <div class="flex margin cor_azul">
 
             <div id="Sobre">
-                <span class="flex texto_sobre">
+                <span class="flex texto_sobre  tamanhosb">
                     <h1 class="titulo alinhar">
                         Sobre nós
                         <img src="images/linha.svg" class="linha2">
@@ -109,7 +109,9 @@
                 </p>
             </div>
 
-            <img src="images/logo_arescold_preto.png" alt="logotipo" style="margin: 25px;">
+            <span class="tamanhosb">
+                <img src="images/logo_arescold_preto.png" alt="logotipo" style="margin: 25px;">
+            </span>
         </div>
             
         <div id="Produtos">
