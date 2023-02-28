@@ -286,20 +286,41 @@ header{
 /* ##################### INICIO PRODUTO DETALHES ################################## */
 
 .img_detalhe{
-    width: 100%;
+    width: 80%;
 }
 
 .texto_detalhe{
-    margin: 75px;
+    margin: 105px;
 }
 
 .titulo_detalhe{
-    font-size: xx-large;
+    font-size: 50px;
     font-weight: bold;
+    text-align: center;
 }
 
-botao_detalhe{
-    padding: 10px;
+.preco_detalhe{
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.botao_detalhe {
+  background: linear-gradient(to bottom right, #4f8bc4, #0408ff);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: url(../images/cursor-pointer.cur), pointer;
+  font-family: -apple-system,system-ui,"Segoe UI";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.5;
+  padding: 10px 50px;
+}
+
+
+.botao_detalhe:hover {
+  color: rgb(0, 255, 242);
+  box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
 }
 /* ##################### FIM PRODUTO DETALHES ##################################### */
 

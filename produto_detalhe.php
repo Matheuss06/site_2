@@ -21,8 +21,7 @@ $id = $_GET['id'];
 </head>
 <body>
 
-<header>
-      
+<header>   
         <div class="logo">
             <img src="images/logo_arescold.png" alt="" class="tamanhologo">
         </div>
@@ -36,36 +35,38 @@ $id = $_GET['id'];
                 <li><a href="index.php#Contato">Contato</a></li>
             </ul>
         </nav>
-
 </header>
 
     <section>
         <div class="flex">
             
-            <div style="width: 80%;">
+            <div style="width: 40%;">
                 <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
             </div>
 
             <div class="texto_detalhe">
                 <h2 class="titulo_detalhe"><?php echo $dado['nome']; ?></h2>
 
-                <p id="descricao">
-                    <?php echo mb_strimwidth($dado['descricao'],0,341,'<span>&nbsp;Ver mais...</span>');?>
-                </p>
 
-                <div id="dados-preco">
-                    <h3>R$<?php echo number_format(($dado['preco']),2,',','.');?>
+                <div>
+                    <h3 class="preco_detalhe">
+                        R$<?php echo number_format(($dado['preco']),2,',','.');?>
                     </h3>
-                    <p>até <span class="promo">5x
-                    </span> de <span class="promo">R$<?php echo number_format(($dado['preco']/5),2,',','.');?></span> 
+
+                    <p>até 12x
+                     de <span class="promo">R$<?php echo number_format(($dado['preco']/12),2,',','.');?></span> 
                     sem juros
                     </p>
                 </div>
             
-                <div>
-                    <button class="botao_detalhe">Comprar</button>
+                <div style="text-align: center; margin-top: 50px;">
+                    <button class="botao_detalhe">COMPRAR</button>
                 </div>
+            </div>
         </div>
+        <p id="descricao">
+                    <?php echo mb_strimwidth($dado['descricao'],0,341,'<span>&nbsp;Ver mais...</span>');?>
+                </p>
         <?php }}?>
     </section>
 
