@@ -44,42 +44,42 @@ $dados = array(
 
     [
     "id" => 6,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado Inverter Samsung",
+    "descricao" => "A tecnologia Digital Inverter Ultra garante uma eficiência energética ainda melhor e consegue atingir uma economia de até 77% de energia comparado aos modelo convencionais. Ambientes climatizados até 43% mais rápido",
+    "preco" => 2320,
+    "imagem" => 'images/inveter_samsung.jpg'
     ],
 
     [
     "id" => 7,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado Inveter TCL",
+    "descricao" => "O Ar Condicionado Inveter TCL 9.000 BTUs proporciona a confortável sensação térmica que você deseja. Muito eficiente, ele é de fácil montagem e manutenção. Não passe mais calor! Leve agora mesmo!",
+    "preco" => 1600,
+    "imagem" => 'images/inveter_tcl.webp'
     ],
 
     [
     "id" => 8,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-     "imagem" => ''
+    "nome" => "Ar Condicionado Inveter Midea",
+    "descricao" => "Sendo perfeito para seu sono, possui sistema de ventilação de alta precisão, oferecendo menor nível de ruído a partir de 19 decibéis. Mais silencioso que uma biblioteca! Além disso conta com a função Comfort Sleep, que permite ajuste de 4 funções automáticas em um clique",
+    "preco" => 2040.90,
+     "imagem" => 'images/inveter_midea.png'
     ],
 
     [
     "id" => 9,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado Inveter LG",
+    "descricao" => "Proporcionando uma experiência térmica muito mais confortável aos seus ambientes, o Split LG Dual Inverter Voice possui balanceamento de rotor duplo no seu compressor LG Dual Inverter o que reduz o número de partidas do compressor garantindo até 70% de economia de energia.",
+    "preco" => 2300.90,
+    "imagem" => 'images/inveter_lg.webp'
     ],
 
     [
     "id" => 10,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado Inveter Elgin",
+    "descricao" => "Recém chegou o verão e você já está passando calor? Com o Ar Condicionado Split Eco Life Frio Inverter isso não vai mais acontecer! Além dele te ajudar nos dias quentes, ele possui o sistema de filtros 3 em 1, sendo Carvão Ativado, Catalisador a Frio e Vitamina C que garante uma qualidade do ar melhor para você.",
+    "preco" => 1600,
+    "imagem" => 'images/inveter_elgin.avif'
     ],
 
     [
