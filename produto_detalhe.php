@@ -36,24 +36,26 @@ $id = $_GET['id'];
             </ul>
         </nav>
 </header>
-
+<hr>
     <section>
         <div class="flex">
             
-            <div style="width: 40%;">
+            <div style="width: 30%;">
                 <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
             </div>
 
             <div class="texto_detalhe">
-                <h2 class="titulo_detalhe"><?php echo $dado['nome']; ?></h2>
-
+                <p class="font_tamanho titulo_detalhe"><?php echo $dado['nome']; ?>
+                    <img src="images/linha.svg" class="linha">
+                </p>
+                </h2>
 
                 <div>
                     <h3 class="preco_detalhe">
-                        R$<?php echo number_format(($dado['preco']),2,',','.');?>
+                        R$ <?php echo number_format(($dado['preco']),2,',','.');?>
                     </h3>
 
-                    <p>até 12x
+                    <p>Até 12x
                      de <span class="promo">R$<?php echo number_format(($dado['preco']/12),2,',','.');?></span> 
                     sem juros
                     </p>
@@ -64,12 +66,16 @@ $id = $_GET['id'];
                 </div>
             </div>
         </div>
-        <p id="descricao">
-                    <?php echo mb_strimwidth($dado['descricao'],0,341,'<span>&nbsp;Ver mais...</span>');?>
-                </p>
+<hr>
+        <div>
+            <h3 class="titulo_desc">Detalhe do Produto</h3>
+            <p class="desc_detalhe">
+                <?php echo $dado['descricao'];?>
+            </p>
+        </div>    
         <?php }}?>
     </section>
-
+<hr>
 <?php include 'footer.html';?>
 </body>
 </html>

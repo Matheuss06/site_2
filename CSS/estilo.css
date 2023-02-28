@@ -131,7 +131,6 @@ header{
 .menu a:hover{
     background-color: rgb(100, 183, 238);
     color: white;
-
 }
 
 .menu a:before{
@@ -301,18 +300,30 @@ header{
 }
 
 .texto_detalhe{
-    margin: 105px;
+    margin-top: 50px;
+    font-variant: small-caps;
+    padding: 50px;
+
 }
 
 .titulo_detalhe{
-    font-size: 50px;
     font-weight: bold;
-    text-align: center;
 }
 
 .preco_detalhe{
     font-size: x-large;
-    margin-top: 50px;
+    margin-top: 45px;
+
+}
+
+.titulo_desc{
+    font-size: 28px;
+    font-variant: small-caps;
+}
+
+.desc_detalhe{
+    text-align: start;
+    width: 100%;
 }
 
 .botao_detalhe {
@@ -325,9 +336,8 @@ header{
   font-size: 20px;
   font-weight: 500;
   line-height: 2.5;
-  padding: 10px 50px;
+  padding: 5px 30px;
 }
-
 
 .botao_detalhe:hover {
   color: rgb(0, 255, 242);
@@ -390,7 +400,6 @@ header{
     background-color: white;
     border-radius: 10px;
     box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
-    cursor: url(../images/cursor-pointer.cur), pointer;
     transition: 1s ease;
 }
 
