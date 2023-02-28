@@ -99,6 +99,7 @@ header{
 
 .tamanhologo{
     width: 250px;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .menu{

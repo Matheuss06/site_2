@@ -23,7 +23,9 @@ $id = $_GET['id'];
 
 <header>   
         <div class="logo">
-            <img src="images/logo_arescold.png" alt="" class="tamanhologo">
+            <a href="index.php">
+                <img src="images/logo_arescold.png" alt="" class="tamanhologo">
+            </a>
         </div>
 
         <nav class="menu">
