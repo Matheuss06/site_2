@@ -93,10 +93,10 @@
                 </ul>
             </div>
 
-        <div class="flex margin cor_azul">
+        <div class="flex2 margin cor_azul">
 
             <div id="Sobre">
-                <span class="flex texto_sobre  tamanhosb">
+                <span class="flex texto_sobre tamanhosb">
                     <h1 class="titulo alinhar">
                         Sobre nós
                         <img src="images/linha.svg" class="linha2">
@@ -123,7 +123,7 @@
                 </h1> 
             </div>
 
-            <div class="produtos w50">
+            <div class="flex w50">
                     <div ng-mouseover="funcaoArCondicionado()" class="selecionar">Ar condicionado</div>
                     <div ng-mouseover="funcaoInverter()" class="selecionar">Ar condicionado Inverter</div>
                     <div ng-mouseover="funcaoMultiSplit()" class="selecionar">Multi Split</div>
