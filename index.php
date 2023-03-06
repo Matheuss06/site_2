@@ -36,7 +36,7 @@
         </section>
 
         
-        <section class="visao">
+        <section class="visao cor_azul">
 
             <article class="imagens">
                 <img src="images/visao.png" alt="Visão" class="imagens">
