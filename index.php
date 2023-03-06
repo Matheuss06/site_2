@@ -156,11 +156,11 @@
                 </div>
 
                 <div ng-show="energiasolar" class="produtos">
-                    <div><a href="produto_detalhe.php?id=16"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a> <!-- https://www.neosolar.com.br/loja/kit-energia-solar-fotovoltaico-930wp-24.html -->
-                    <div><a href="produto_detalhe.php?id=17"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=18"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=19"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=20"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=16"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=17"><img src="images/energia_solar_solo.webp" alt="Kit Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=18"><img src="images/caixa_energiasolar.webp" alt="Combo Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=19"><img src="images/placasolar_black.webp" alt="Kit 6 Placas de Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_duas.webp" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
                 </div>
 
     <script>

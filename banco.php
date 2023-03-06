@@ -124,42 +124,42 @@ $dados = array(
 
     [
     "id" => 16,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Kit Energia Solar Fotovoltaica 1120WP",
+    "descricao" => "O Kit de Energia Solar Fotovoltaico 1120W é um Kit Off Grid com painel solar e controlador de carga para a geração de energia da forma mais simples e econômimca em locais isolados ou sem acesso a rede elétrica. Ele foi dimensionado cuidadosamente por especialistas para atender um consumo de até 3.332 Wh por dia. <br> A energia gerada em corrente contínua (CC) pelo painel fotovoltaico será armazenada na bateria estacionária em 24V (CC). Esta energia será utilizada posteriormente para alimentar equipamentos elétricos. A bateria solar não está inclusa no kit.",
+    "preco" => 4837.99,
+    "imagem" => 'images/energiasolar_venda.jpg'
     ],
 
     [
     "id" => 17,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Painel Solar policristalino 150W Resun Solar - RS6E 150P",
+    "descricao" => "O painel solar fotovoltaico Resun Solar Energy de 150W, modelo RS6E-150P, é composto por 36 células de uma composição de silício e outros componentes condutores fazendo com que o módulo policristalino tenha uma eficiência celular média de até 15,29%.  Em condições ideais de insolação gera 150W, corrente de pico (Imp) 8,38A e tensão de pico (Vmp) 17,91V em corrente contínua.",
+    "preco" => 369,
+    "imagem" => 'images/energia_solar_solo.webp'
     ],
 
     [
     "id" => 18,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Combo com 34 Painéis Solares Fotovoltaicos 155W",
+    "descricao" => "Os painéis solares nesta faixa de potência são largamente utilizados para diversas aplicações Off Grid em locais remotos e difícil acesso. Seu tamanho facilita o transporte e manuseio na hora da instalação tornando este painel um dos mais desejados para sistemas de energia solar com bateria (Off Grid) e bombeamento solar. Utilize controlador de carga solar adequado para garantir maior eficiência. <br> Possui 34x Painel Solar Fotovoltaico 155W - Resun RS6E-155M (acompanha cabo conector)",
+    "preco" => 12599.99,
+    "imagem" => 'images/caixa_energiasolar.webp'
     ],
                         
     [
     "id" => 19,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Kit Energia Solar 6 Placas + Inversor Growatt - 450kwh/mês",
+    "descricao" => "Kit Energia Solar 450KWH Mês 3,3KWP Inversor Growatt 2,5KW 220V 1MPPT, <br> Reduza sua conta de luz em até 95% pagando somente a tarifa de manutenção. <br> Fuja do aumentada conta de luz produzindo sua própria energia.",
+    "preco" => 8000,
+    "imagem" => 'images/placasolar_black.webp'
     ],
 
     [
     "id" => 20,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Kit 2 Painéis Solares 550W JA Solar - Mono",
+    "descricao" => "O painel solar 550W da Ja Solar, possui 144 células de silício monocristalino. A placa solar 550w possui alta eficiência. <br> Ideal para geração de energia solar On-Grid conectado à rede pública, sistemas e aplicativos para uso com baterias e sistemas de comunicação e internet. Utilizasse ademais em sistemas Off-Grid, sendo necessário usar baterias para armazenar energia gerada pelas placas.",
+    "preco" => 2509.87,
+    "imagem" => 'images/placasolar_duas.webp'
     ],
 
 );
