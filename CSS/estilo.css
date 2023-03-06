@@ -719,8 +719,8 @@ h4{
 
 .texto_p{
     font-size: 20px;
-    width: 500px;
+    width: 480px;
     text-align: center;
-    transform: translateX(-150px);
+    transform: translateX(-145px);
 }
 }
