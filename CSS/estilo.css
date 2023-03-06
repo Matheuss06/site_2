@@ -478,11 +478,44 @@ header{
     border: 1px solid black;
 }
 
+.width50{
+    width: 50%;
+}
+
 /* ##################### FIM FOOTER ############################################# */
 
 
 /* RESPONSIVO */
 
+/* ###### 1800PX ###### */
+
+/* PRODUTOS */
+
+@media screen and (max-width: 1800px){
+.produtos{
+    flex-wrap: wrap;
+    gap: 25px;
+}    
+}
+
+/* ###### 1600PX ###### */
+
+/* SERVIÇOS */
+@media screen and (max-width: 1600px){
+.servicos{
+    flex-direction: row;
+}
+
+.servicos ul{
+    flex-wrap: wrap;
+}
+
+.servicos ul li{
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: start;
+}
+}
 
 /* ###### 1200PX ###### */
 
@@ -528,10 +561,23 @@ header{
     justify-content: center;
 }
 
-/* VISÃO */
-
 
 /* SERVIÇOS */
+
+
+.servicos{
+    flex-direction: row;
+}
+
+.servicos ul{
+    flex-wrap: wrap;
+}
+
+.servicos ul li{
+    width: 80%;
+    margin-bottom: 10px;
+    text-align: start;
+}
 
 
 /* SOBRE NÓS */
@@ -570,40 +616,22 @@ header{
     gap: 25px;
 }
 
-.imagens_prod{
-    margin: 0px 50px;
-    border: 1px solid white;
-    width: 250px;
-    cursor: url(../images/cursor-pointer.cur), pointer;
-}
-
-.imagens_prod:hover{
-    -webkit-transition: all 1.3s ease;
-    -o-transition: all 1.8s ease;
-    transition: all 1.2s ease;
-    -webkit-transform: scale(1.0);
-    transform: scale(1.1);
-    border: 1px solid rgb(112, 188, 211);
-}
-
 .selecionar{
     display: block;
-}
-
-.selecionar:hover{
-    color: rgb(0, 122, 223);
-    font-weight: bold;
-    padding: 10px;
-    border: 1px solid  rgb(112, 188, 211);
-    transition: all 1.2s ease;
 }
 
 .w50{
     width: 100%;
 }
 
+/* FOOTER */
 
+.imagemdiv{
+    display: none;
+}
 
-
+.width50{
+    width: 100%;
+}
 
 }

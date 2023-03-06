@@ -150,7 +150,7 @@
                 <div ng-show="multisplit" class="produtos">
                     <div><a href="produto_detalhe.php?id=11"><img src="images/multisplit_lg.avif" alt="Ar Condicionado Multisplit lg" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=12"><img src="images/multisplit_fujitsu.png" alt="Ar Condicionado Multisplit fujitsu" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=13"><img src="images/multisplit_daikin.avif" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div> </a>
+                    <div><a href="produto_detalhe.php?id=13"><img src="images/multisplit_daikin.avif" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=14"><img src="images/multisplit_midea.webp" alt="Ar Condicionado Multisplit midea" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=15"><img src="images/multisplit_samsung.webp" alt="Ar Condicionado Multisplit samsung" class="imagens_prod"></div></a>
                 </div>
