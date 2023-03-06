@@ -84,42 +84,42 @@ $dados = array(
 
     [
     "id" => 11,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado MultiSplit LG",
+    "descricao" => "O sistema de ar-condicionado Multi Split LG é uma solução confortável e elegante de refrigeração/aquecimento para sua casa. <br> Economia de energia: A avançada tecnologia de inversor da LG apresenta alto desempenho com menor consumo de energia. Ela trará grandes reduções nos custos ao longo da vida útil do produto. <br> Refrigeração rápida com sensores inteligentes: Além de um sensor de temperatura, a LG adicionou um sensor de pressão para oferecer um controle mais preciso e estável. Com isso, é possível atingir a temperatura alvo 30% mais rápido para refrigeração e 44% para aquecimento. <br> Solução ideal para diversos cômodos: O sistema de distribuição múltipla oferece refrigeração e aquecimento em todos os cômodos, com a instalação de apenas uma unidade externa. <br>  Opção com múltipla tubulação: Uma única unidade externa pode comportar de duas a cinco unidades internas. <br> Economia de espaço: O sistema de distribuição múltipla da LG não requer várias unidades externas para refrigerar todos os cômodos em sua casa. é preciso apenas uma unidade externa para atender a toda a casa.",
+    "preco" => 6259.90,
+    "imagem" => 'images/multisplit_lg.avif'
     ],
 
     [
     "id" => 12,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado MultiSplit Fujitsu",
+    "descricao" => "Ar-Condicionado Multi Split Inverter Fujitsu 18.000 BTUs (2x Evap HW 12.000) Quente/Frio 220V <br> Garantir climatização e conforto térmico para mais de um ambiente pode ser simples e ocupar o mínimo espaço quando se tem um ar-condicionado Multi Split Inverter Fujitsu . Esse equipamento atua com economia e alta eficiência através de 2 evaporadoras e 1 condensadora, distribuindo o ar climatizado para mais de um ambiente utilizando apenas um aparelho externo.",
+    "preco" => 6550.50,
+    "imagem" => 'images/multisplit_fujitsu.png'
     ],
 
     [
     "id" => 13,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado MultiSplit Daikin",
+    "descricao" => "O Ar-Condicionado Multi Split Inverter Daikin é a escolha ideal para a climatização de múltiplos ambientes, pois permite conectar até 5 unidades internas em apenas uma única unidade externa, com máxima eficiência. As unidades internas podem ser controladas individualmente, de acordo com a necessidade de cada ambiente, atendendo assim às necessidades de cada membro de sua família. <br> Confira algumas das vantagens: Menor carga de fluido refrigerante: A capacidade de transporte de calor do R-32 maior que do R-410A permite que se utilize uma menor quantidade de fluido refrigerante. Operação Silenciosa: O Multi-Split Daikin oferece um baixo nível de ruído durante a operação em modo silencioso atingindo até 22dB (A).",
+    "preco" => 7004.99,
+    "imagem" => 'images/multisplit_daikin.avif'
     ],
 
     [
     "id" => 14,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado MultiSplit Midea",
+    "descricao" => "Ar Condicionado MultiSplit Hw Inverter Springer Midea 1x9000+2x12000 Btus Quente/Frio 220V 38MBTA27M5 <br> Com o Multisplit Springer Midea Inverter, é possível climatizar até 5 ambientes com uma única unidade externa. A tecnologia inverter reduz o consumo de energia e aumenta a vida útil do equipamento. Seu sistema de Ionização + Tripla Filtragem elimina até 99,9% dos vírus e bactérias, incluindo o vírus H1N1. Disponível nas versões bi-split, na capacidade 18.000 BTU/h; tri-split em 27.000 BTU/h; quadri-split em 36.000 BTU/h; e penta-split em 42.000 BTU/h. Sistema inverter: baixo consumo de energia em todas as capacidades. Ionizador + Tripla Filtragem: elimina até 99,9% dos vírus e bactérias, incluindo o H1N1*. Climatiza até 5 ambientes: com uma única unidade externa e oferece 4 tipos diferentes de unidades internas. 4 modos de operação: resfria, ventila, desumidifica e aquece. 4 velocidades de ventilação: baixa, média, alta e automática.",
+    "preco" => 7500,
+    "imagem" => 'images/multisplit_midea.webp'
     ],
 
     [
     "id" => 15,
-    "nome" => "",
-    "descricao" => "",
-    "preco" => 1000.99,
-    "imagem" => ''
+    "nome" => "Ar Condicionado MultiSplit Samsung",
+    "descricao" => "Ar Condicionado MultiSplit Samsung Ultra 18000 Btus (1x9000+1x12000) Quente/frio Inverter 220v Aj050axj2kh/az\njá Pensou Em Manter Mais De Um Cômodo Da Sua Casa Na Temperatura Perfeita E Ainda Ocupando Menos Espaço Com Isso? Com Os Multi Split Inverter Da Samsung, Você Utiliza Apenas Uma Unidade Externa Para Mais De Uma Unidade Interna. Poupando Espaço E Reduzindo Custos De Instalação.\n\ncom O Multi Split Inverter Samsung Você Conta Com Uma Durabilidade Muito Maior, Sua Serpentina É De Cobre, Com Proteção Anticorrosiva Que Garante Alto Nível De Troca De Calor E Eficiência Energética E Ainda Conta Com 5 Anos De Garantia No Compressor.\n\ntecnologia E Modernidade: Com Apenas Um Botão A Condensadora Encontra As Evaporadoras De Maneira Automática. Tornando A Instalação Mais Prática.",
+    "preco" => 6899.99,
+    "imagem" => 'images/multisplit_samsung.webp'
     ],
 
     [

@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/687b2e222f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/estilo.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <title>Document</title>
+    <title>Ares Cold</title>
 </head>
 <body ng-app="meuApp" ng-controller="Controlador">
    
