@@ -368,7 +368,12 @@ header{
 }
 
 .borda{
-    box-shadow: .125rem -.125rem 1rem rgba(2, 4, 31, 0.5), .125rem .125rem 1rem rgba(233, 245, 247, 0.5);
+    box-shadow: .125rem -.125rem 1rem rgba(2, 19, 250, 0.5), .125rem .125rem 1rem rgba(4, 0, 247, 0.5);
+}
+
+.linha_borda{
+    border-color: blue;
+    opacity: 30%;
 }
 
 .texto_detalhe{
@@ -398,7 +403,7 @@ header{
 }
 
 .botao_detalhe {
-  background: linear-gradient(to bottom right, #4f8bc4, #0408ff);
+  background: linear-gradient(to bottom right, #0084ff, #999af3);
   border: 0;
   border-radius: 12px;
   color: #FFFFFF;
@@ -411,8 +416,9 @@ header{
 }
 
 .botao_detalhe:hover {
-  color: rgb(0, 255, 242);
-  box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
+  color: #0084ff;
+  box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 217, 255, 0.5);
+  background: linear-gradient(to bottom right, #d3d6fd, #ffffff);
 }
 /* ##################### FIM PRODUTO DETALHES ##################################### */
 
@@ -494,6 +500,16 @@ header{
     width: 25px;
     padding: 10px;
     border: 1px solid black;
+}
+
+.img_rede:hover{
+    -webkit-transition: all 1.3s ease;
+    -o-transition: all 1.8s ease;
+    transition: all 1.2s ease;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    border: 1px solid black;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
 .width50{

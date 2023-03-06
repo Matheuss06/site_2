@@ -35,7 +35,7 @@ $id = $_GET['id'];
             </button>
             <div class="drop_link">
                 <a href="index.php">Home</a>
-                <a href="index.php/#Servicos">Serviços</a>
+                <a href="index.php#Servicos">Serviços</a>
                 <a href="index.php#Sobre">Sobre Nós</a>
                 <a href="index.php#Produtos">Produtos</a>
                 <a href="index.php#Contato">Contato</a>
@@ -45,14 +45,14 @@ $id = $_GET['id'];
         <nav class="menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="index.php/#Servicos">Serviços</a></li>
+                <li><a href="index.php#Servicos">Serviços</a></li>
                 <li><a href="index.php#Sobre">Sobre Nós</a></li>
                 <li><a href="index.php#Produtos">Produtos</a></li>
                 <li><a href="index.php#Contato">Contato</a></li>
             </ul>
         </nav>
 </header>
-<hr>
+
     <section>
         <div class="flex borda">
             
@@ -82,7 +82,7 @@ $id = $_GET['id'];
                 </div>
             </div>
         </div>
-<hr>
+
         <div>
             <h3 class="titulo_desc">Detalhe do Produto</h3>
             <p class="desc_detalhe">
@@ -91,7 +91,7 @@ $id = $_GET['id'];
         </div>    
         <?php }}?>
     </section>
-<hr>
+<hr class="linha_borda">
 <?php include 'footer.html';?>
 </body>
 </html>
