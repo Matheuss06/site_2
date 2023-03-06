@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
     <!-- Icons FontAwesome -->
     <script src="https://kit.fontawesome.com/687b2e222f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo_arescold_grande.png">
     <link rel="stylesheet" href="CSS/estilo.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>Ares Cold</title>

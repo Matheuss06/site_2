@@ -15,6 +15,7 @@ $id = $_GET['id'];
     <!-- Icons FontAwesome -->
     <script src="https://kit.fontawesome.com/687b2e222f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="icon" type="image/png" href="images/logo_arescold_grande.png">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <?php foreach ($dados as $dado){ if ($dado['id']==$id) {?> 
     <title>Detalhes do Produto - <?php echo $dado['nome']; ?></title>
