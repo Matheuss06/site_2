@@ -132,31 +132,31 @@
 
             
                 <div ng-show="arcondicionado" class="produtos">
-                    <div><a href="produto_detalhe.php?id=1"><img src="images/ar_elgin.jfif" alt="Ar Condicionado Elgin" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=2"><img src="images/ar_consul.webp" alt="Ar Condicionado Consul" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=3"><img src="images/ar_philco.webp" alt="Ar Condicionado Philco" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=4"><img src="images/ar_lg.webp" alt="Ar Condicionado LG" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=5"><img src="images/ar_electrolux.jpg" alt="Ar Condicionado" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=1"><img src="images/ar_elgin.png" alt="Ar Condicionado Elgin" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=2"><img src="images/ar_consul.png" alt="Ar Condicionado Consul" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=3"><img src="images/ar_philco.png" alt="Ar Condicionado Philco" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=4"><img src="images/ar_lg.png" alt="Ar Condicionado LG" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=5"><img src="images/ar_electrolux.png" alt="Ar Condicionado" class="imagens_prod"></div></a>
                 </div>
 
                 <div ng-show="inverter" class="produtos">
-                    <div><a href="produto_detalhe.php?id=6"><img src="images/inveter_samsung.jpg" alt="Ar Condicionado inveter samsung" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=7"><img src="images/inveter_tcl.webp" alt="Ar Condicionado inveter tcl" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=6"><img src="images/inveter_samsung.png" alt="Ar Condicionado inveter samsung" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=7"><img src="images/inveter_tcl.png" alt="Ar Condicionado inveter tcl" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=8"><img src="images/inveter_midea.png" alt="Ar Condicionado inveter midea" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=9"><img src="images/inveter_lg.webp" alt="Ar Condicionado inveter lg" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=10"><img src="images/inveter_elgin.avif" alt="Ar Condicionado inveter elgin" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=9"><img src="images/inveter_lg.png" alt="Ar Condicionado inveter lg" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=10"><img src="images/inveter_elgin.png" alt="Ar Condicionado inveter elgin" class="imagens_prod"></div></a>
                 </div>
 
                 <div ng-show="multisplit" class="produtos">
-                    <div><a href="produto_detalhe.php?id=11"><img src="images/multisplit_lg.avif" alt="Ar Condicionado Multisplit lg" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=11"><img src="images/multisplit_lg.png" alt="Ar Condicionado Multisplit lg" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=12"><img src="images/multisplit_fujitsu.png" alt="Ar Condicionado Multisplit fujitsu" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=13"><img src="images/multisplit_daikin.avif" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=14"><img src="images/multisplit_midea.webp" alt="Ar Condicionado Multisplit midea" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=15"><img src="images/multisplit_samsung.webp" alt="Ar Condicionado Multisplit samsung" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=13"><img src="images/multisplit_daikin.png" alt="Ar Condicionado Multisplit daikin" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=14"><img src="images/multisplit_midea.png" alt="Ar Condicionado Multisplit midea" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=15"><img src="images/multisplit_samsung.png" alt="Ar Condicionado Multisplit samsung" class="imagens_prod"></div></a>
                 </div>
 
                 <div ng-show="energiasolar" class="produtos">
-                    <div><a href="produto_detalhe.php?id=16"><img src="images/energiasolar_venda.jpg" alt="Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=16"><img src="images/energiasolar_venda.png" alt="Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=17"><img src="images/energia_solar_solo.webp" alt="Kit Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=18"><img src="images/caixa_energiasolar.webp" alt="Combo Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=19"><img src="images/placasolar_black.webp" alt="Kit 6 Placas de Energia Solar" class="imagens_prod"></div></a>

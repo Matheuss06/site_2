@@ -17,7 +17,7 @@ $id = $_GET['id'];
     <link rel="stylesheet" href="CSS/estilo.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <?php foreach ($dados as $dado){ if ($dado['id']==$id) {?> 
-    <title>Detalhes do Produto <?php echo $dado['nome']; ?></title>
+    <title>Detalhes do Produto - <?php echo $dado['nome']; ?></title>
 </head>
 <body>
 
