@@ -51,6 +51,10 @@ a{
     width: 180px;
 }
 
+.linha4{
+    width: 80%;
+}
+
 .titulo{
     font-size: 2em;
     text-align: center;
@@ -169,6 +173,7 @@ header{
     border: none;
     cursor: pointer;
     display: none;
+    cursor: url(../images/cursor.cur), default;
 }
   
 .dropdown {
@@ -191,12 +196,14 @@ header{
     text-decoration: none;
     display: flex;
     justify-content: center;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
   
 .drop_link a:hover {
     background-color: rgb(100, 183, 238);
     box-shadow: 0px 8px 16px 0px rgb(100, 183, 238);
     color: white;
+    cursor: url(../images/cursor-pointer.cur), pointer;
 }
   
 .dropdown:hover .drop_link {
@@ -353,14 +360,20 @@ header{
 /* ##################### INICIO PRODUTO DETALHES ################################## */
 
 .img_detalhe{
-    width: 80%;
+    width: 90%;
+}
+
+.div_img{
+    width: 30%;
+}
+
+.borda{
+    box-shadow: .125rem -.125rem 1rem rgba(2, 4, 31, 0.5), .125rem .125rem 1rem rgba(233, 245, 247, 0.5);
 }
 
 .texto_detalhe{
-    margin-top: 50px;
     font-variant: small-caps;
     padding: 50px;
-
 }
 
 .titulo_detalhe{
@@ -381,6 +394,7 @@ header{
 .desc_detalhe{
     text-align: start;
     width: 100%;
+    font-size: x-large;
 }
 
 .botao_detalhe {
@@ -499,7 +513,14 @@ header{
 .produtos{
     flex-wrap: wrap;
     gap: 25px;
-}    
+}  
+
+/* PRODUTOS DETALHE */
+
+.img_detalhe{
+    width: 110%;
+}
+
 }
 
 /* ###### 1600PX ###### */
@@ -635,6 +656,39 @@ header{
 
 .width50{
     width: 100%;
+}
+
+/* PRODUTO DETALHES */
+.img_detalhe{
+    width: 100%;
+}
+.borda{
+    display: inline;
+}
+
+.div_img{
+    margin: 30px auto 0 auto;
+    padding: 50px;
+    box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
+}
+
+.linha4{
+    width: 40%;
+}
+
+.preco_div{
+    margin: 0 auto;
+    font-size: x-large;
+}
+
+.preco_detalhe{
+    font-size: xx-large;
+}
+
+.desc_detalhe{
+    text-align: start;
+    width: 100%;
+    font-size: x-large;
 }
 
 }

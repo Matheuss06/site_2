@@ -28,6 +28,19 @@ $id = $_GET['id'];
             </a>
         </div>
 
+        <div class="dropdown">
+            <button class="botao_menu">Menu
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="drop_link">
+                <a href="index.php">Home</a>
+                <a href="index.php/#Servicos">Serviços</a>
+                <a href="index.php#Sobre">Sobre Nós</a>
+                <a href="index.php#Produtos">Produtos</a>
+                <a href="index.php#Contato">Contato</a>
+            </div>
+        </div>
+
         <nav class="menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -40,19 +53,19 @@ $id = $_GET['id'];
 </header>
 <hr>
     <section>
-        <div class="flex">
+        <div class="flex borda">
             
-            <div style="width: 30%;">
+            <div class="div_img">
                 <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
             </div>
 
             <div class="texto_detalhe">
                 <p class="font_tamanho titulo_detalhe"><?php echo $dado['nome']; ?>
-                    <img src="images/linha.svg" class="linha">
+                    <img src="images/linha.svg" class="linha4">
                 </p>
                 </h2>
 
-                <div>
+                <div class="preco_div">
                     <h3 class="preco_detalhe">
                         R$ <?php echo number_format(($dado['preco']),2,',','.');?>
                     </h3>
