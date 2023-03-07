@@ -94,6 +94,7 @@ a{
 .quadrado:hover{
     box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
     color: white;
+    border-radius: 50%;
 }
 
 /* ################################ HEADER ################################### */
