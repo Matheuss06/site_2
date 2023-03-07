@@ -22,7 +22,7 @@ $id = $_GET['id'];
 </head>
 <body>
 
-<header>   
+<header class="borda">   
         <div class="logo">
             <a href="index.php">
                 <img src="images/logo_arescold.png" alt="" class="tamanhologo">
@@ -53,8 +53,9 @@ $id = $_GET['id'];
         </nav>
 </header>
 
-    <section>
-        <div class="flex borda">
+<div style="background-color: aliceblue; margin-top: 0;">
+    <section class="container">
+        <div class="flex detalhes">
             
             <div class="div_img">
                 <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
@@ -64,25 +65,9 @@ $id = $_GET['id'];
                 <p class="font_tamanho titulo_detalhe"><?php echo $dado['nome']; ?>
                     <img src="images/linha.svg" class="linha4">
                 </p>
-                </h2>
-
-                <div class="preco_div">
-                    <h3 class="preco_detalhe">
-                        R$ <?php echo number_format(($dado['preco']),2,',','.');?>
-                    </h3>
-
-                    <p>Até 12x
-                     de <span class="promo">R$<?php echo number_format(($dado['preco']/12),2,',','.');?></span> 
-                    sem juros
-                    </p>
-                </div>
-            
-                <div style="text-align: center; margin-top: 50px;">
-                    <button class="botao_detalhe">COMPRAR</button>
-                </div>
             </div>
         </div>
-
+        <hr class="borda" style="border-color:rgba(2, 19, 250, 0.5);">
         <div>
             <h3 class="titulo_desc">Detalhe do Produto</h3>
             <p class="desc_detalhe">
@@ -93,5 +78,6 @@ $id = $_GET['id'];
     </section>
 <hr class="linha_borda">
 <?php include 'footer.html';?>
+</div>
 </body>
 </html>

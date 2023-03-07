@@ -84,14 +84,6 @@
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem quibusdam quis, repellat quod aperiam dolor nostrum in optio dolorum ex quos esse omnis ipsa sed eaque maiores beatae voluptate?</p></li>
                 </ul>
               
-                <ul>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/limpeza_energiasolar_servico.jpg" alt="" class="img_servico"></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/manutencao_servico.png" alt="" class="img_servico"></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/ar_condicionado_servico.jpg" alt="" class="img_servico"></li>
-                </ul>
             </div>
 
         <div class="flex2 margin cor_azul">
@@ -163,6 +155,7 @@
                     <div><a href="produto_detalhe.php?id=19"><img src="images/placasolar_black.png" alt="Kit 6 Placas de Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_duas.png" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
                 </div>
+        </div>
 
     <script>
         var app = angular.module('meuApp', []);

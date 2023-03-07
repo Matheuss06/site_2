@@ -7,6 +7,11 @@ body{
     margin: 0;
 }
 
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
 .cor_azul{
     background-color: rgb(100, 183, 238);
 }
@@ -277,6 +282,7 @@ header{
     margin: 0px 50px;
     border: 1px solid white;
     width: 250px;
+    height: 100%;
     cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
@@ -359,6 +365,10 @@ header{
 /* ##################### FIM SOBRE NÓS ############################################ */
 
 /* ##################### INICIO PRODUTO DETALHES ################################## */
+
+.detalhes{
+    margin-top: 50px;
+}
 
 .img_detalhe{
     width: 90%;
