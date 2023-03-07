@@ -90,7 +90,7 @@
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
                     <li><img src="images/manutencao_servico.png" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><img src="images/ar_condicionado_servico.jpg" alt="" class="img_servico"></li>
                 </ul>
             </div>
 
