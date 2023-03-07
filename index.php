@@ -78,17 +78,17 @@
                  <ul>
                     <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minima dolor blanditiis totam excepturi ipsam alias et natus voluptate, aperiam nemo. Iure voluptas sapiente provident nam laudantium, modi sed at?</p></li>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><img src="images/ar_inverter_servico.jfif" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente ea deserunt consectetur modi quas perspiciatis accusamus libero aspernatur minus sint laboriosam, fugit aliquam et vel! Dignissimos atque exercitationem dolorem!</p></li>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><img src="images/servico_solar.jpg" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem quibusdam quis, repellat quod aperiam dolor nostrum in optio dolorum ex quos esse omnis ipsa sed eaque maiores beatae voluptate?</p></li>
                 </ul>
               
                 <ul>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><img src="images/limpeza_energiasolar_servico.jpg" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
+                    <li><img src="images/manutencao_servico.png" alt="" class="img_servico"></li>
                     <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores dolorem placeat nobis beatae nesciunt maxime omnis asperiores mollitia odio ab molestias maiores amet possimus blanditiis rem quidem, error fuga!</p></li>
                     <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
                 </ul>
