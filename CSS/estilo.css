@@ -327,12 +327,13 @@ header{
 .servicos {
     background: transparent;
     perspective: 1000px;
-  }
+    margin-bottom: 50px;
+}
   
 .virar {
     background: transparent;
     width: 480px;
-    height: 450px;
+    height: 350px;
     position: relative;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
@@ -352,6 +353,7 @@ header{
     transform: rotateY(180deg);
     font-size: 15px;
     text-align: center;
+    border-radius: 15%;
 }
 
 .servicos:hover .virar {
@@ -362,6 +364,7 @@ header{
 .img_servico{
     width: 480px;
     height: 350px;
+    border-radius: 15%;
 }
 
 /* ##################### FIM SERVIÇO ################################################ */
