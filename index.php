@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>Ares Cold</title>
 </head>
-<body ng-app="meuApp" ng-controller="Controlador" style="background-color:#eaedef";>
+<body ng-app="meuApp" ng-controller="Controlador" style="background-color: #bcc0f5;";>
    
     <a href="#topo">
         <span class="quadrado">
@@ -23,7 +23,7 @@
     
     <?php include('header.html')?>
 
-<div class="container">
+<div class="container" style="background-color: #eaedef;">
 
         <section class="flex fundo">
 
@@ -225,8 +225,9 @@
             }
         })
     </script>
+    <?php include 'footer.html'?>
+
 </div>
-<?php include 'footer.html'?>
 
 </body>
 
