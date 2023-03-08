@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>Ares Cold</title>
 </head>
-<body ng-app="meuApp" ng-controller="Controlador">
+<body ng-app="meuApp" ng-controller="Controlador" style="background-color:#eaedef";>
    
     <a href="#topo">
         <span class="quadrado">
@@ -22,7 +22,7 @@
     </a>
     
     <?php include('header.html')?>
-    
+
 <div class="container">
 
         <section class="flex fundo">
@@ -72,6 +72,7 @@
             </article>
         </section>
 
+    <div id="divservico">
         <div id="Servicos">
             <h1 class="titulo">Serviços<img src="images/linha.svg" class="linha2"></h1> 
         </div>
@@ -114,6 +115,8 @@
                 </div>
             </div>
         </div>
+    </div>
+
         <div class="flex2 margin cor_azul">
 
             <div id="Sobre">

@@ -82,7 +82,7 @@ a{
 
 .quadrado{
     position: fixed;
-    background-color: rgb(185, 209, 253);
+    background-color:#d3d3d3;
     width: 60px;
     height: 60px;
     border-radius: 3px;
@@ -97,7 +97,7 @@ a{
 }
 
 .quadrado:hover{
-    box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgba(0, 215, 253, 0.5);
+    box-shadow: .125rem -.125rem 1rem rgba(0, 17, 255, 0.5), .125rem .125rem 1rem rgb(9, 201, 235);
     color: white;
     border-radius: 50%;
 }
@@ -146,7 +146,7 @@ header{
 }
 
 .menu a:hover{
-    background-color: rgb(100, 183, 238);
+    background-color: rgb(0, 81, 255);
     color: white;
 }
 
@@ -191,7 +191,7 @@ header{
     position: absolute;
     background-color: #eaedef;
     min-width: 140px;
-    box-shadow: 0px 8px 16px 0px rgb(100, 183, 238);
+    box-shadow: 0px 8px 16px 0px rgb(0, 81, 255);
     z-index: 1;
 }
   
@@ -205,7 +205,7 @@ header{
 }
   
 .drop_link a:hover {
-    background-color: rgb(100, 183, 238);
+    background-color: rgb(0, 81, 255);
     box-shadow: 0px 8px 16px 0px rgb(100, 183, 238);
     color: white;
     cursor: url(../images/cursor-pointer.cur), pointer;
@@ -216,7 +216,7 @@ header{
 }
   
 .dropdown:hover .botao_menu {
-    background-color:  rgb(100, 183, 238);
+    background-color: rgb(0, 81, 255);
     color: white;
 }
 
@@ -239,7 +239,7 @@ header{
 /* ##################### INICIO VISAO ######################################### */
 
 .visao{
-    background-color: rgb(100, 183, 238);
+    background-color: rgb(0, 81, 255);
     display: flex;
     justify-content: space-around;
 
@@ -256,7 +256,7 @@ header{
 }
 
 .texto{
-    background-color:  rgb(100, 183, 238);
+    background-color: rgb(0, 81, 255);
     font-weight: bold;
     font-size: x-large;
     text-align: center;
@@ -276,6 +276,7 @@ header{
 .produtos{
     display: flex;
     justify-content: space-around;
+    
 }
 
 .imagens_prod{
@@ -283,7 +284,7 @@ header{
     border: 1px solid white;
     width: 250px;
     height: 100%;
-    cursor: url(../images/cursor-pointer.cur), pointer;
+    cursor: url(../images/cursor-pointer.cur), pointer;   
 }
 
 .imagens_prod:hover{
@@ -338,15 +339,15 @@ header{
 }
   
 .front, .back {
-    background: purple;
     position: absolute;
+    color: white;
     width: 480px;
     height: 350px;
     backface-visibility: hidden;
 }
   
 .back {
-    background: lightgreen;
+    background-color: rgb(0, 81, 255);
     transform: rotateY(180deg);
 }
   
@@ -550,9 +551,11 @@ header{
 
 /* ###### 1800PX ###### */
 
-/* PRODUTOS */
+
 
 @media screen and (max-width: 1800px){
+
+/* PRODUTOS */    
 .produtos{
     flex-wrap: wrap;
     gap: 25px;
@@ -568,8 +571,16 @@ header{
 
 /* ###### 1600PX ###### */
 
-/* SERVIÇOS */
 @media screen and (max-width: 1600px){
+
+/* GERAL */
+
+.container{
+    margin: 0;
+    width: 100%;
+}
+
+/* SERVIÇOS */
 .servicos{
     flex-direction: row;
 }
