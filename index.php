@@ -22,6 +22,8 @@
     </a>
     
     <?php include('header.html')?>
+    
+<div class="container">
 
         <section class="flex fundo">
 
@@ -74,18 +76,44 @@
             <h1 class="titulo">Serviços<img src="images/linha.svg" class="linha2"></h1> 
         </div>
 
+        <div class="flex">
+
             <div class="servicos">
-                 <ul>
-                    <li><img src="images/instalacao.jpg" alt="" class="img_servico"></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni minima dolor blanditiis totam excepturi ipsam alias et natus voluptate, aperiam nemo. Iure voluptas sapiente provident nam laudantium, modi sed at?</p></li>
-                    <li><img src="images/ar_inverter_servico.jfif" alt="" class="img_servico"></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sapiente ea deserunt consectetur modi quas perspiciatis accusamus libero aspernatur minus sint laboriosam, fugit aliquam et vel! Dignissimos atque exercitationem dolorem!</p></li>
-                    <li><img src="images/servico_solar.jpg" alt="" class="img_servico"></li>
-                    <li><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quidem quibusdam quis, repellat quod aperiam dolor nostrum in optio dolorum ex quos esse omnis ipsa sed eaque maiores beatae voluptate?</p></li>
-                </ul>
-              
+                <div class="virar">
+                    <div class="front">
+                        <img src="images/instalacao.jpg" alt="" class="img_servico">
+                    </div>
+      
+                    <div class="back">
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae ad nobis. Nobis sit, iure dolorum optio culpa id, eligendi accusantium hic natus nisi provident velit, voluptatibus blanditiis totam ab.</h1>
+                    </div>
+                </div>
             </div>
 
+            <div class="servicos">
+                <div class="virar">
+                    <div class="front">
+                        <img src="images/ar_inverter_servico.jfif" alt="" class="img_servico">
+                    </div>
+      
+                    <div class="back">
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae ad nobis. Nobis sit, iure dolorum optio culpa id, eligendi accusantium hic natus nisi provident velit, voluptatibus blanditiis totam ab.</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="servicos">
+                <div class="virar">
+                    <div class="front">
+                        <img src="images/servico_solar.jpg" alt="" class="img_servico">
+                    </div>
+      
+                    <div class="back">
+                        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis molestiae ad nobis. Nobis sit, iure dolorum optio culpa id, eligendi accusantium hic natus nisi provident velit, voluptatibus blanditiis totam ab.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="flex2 margin cor_azul">
 
             <div id="Sobre">
@@ -194,7 +222,7 @@
             }
         })
     </script>
-
+</div>
 <?php include 'footer.html'?>
 
 </body>

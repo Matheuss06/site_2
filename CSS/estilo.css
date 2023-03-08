@@ -322,26 +322,42 @@ header{
 
 /* ##################### INCIO SERVIÇO ############################################ */
 
-.servicos{
-     display: flex;
-     flex-direction: column;
-     margin-right: 30px;
+.servicos {
+    background: transparent;
+    perspective: 1000px;
+  }
+  
+.virar {
+    background: transparent;
+    width: 480px;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 600ms ease-in-out;
 }
-
-.servicos ul{
-     display: flex;
-     justify-content: center;
+  
+.front, .back {
+    background: purple;
+    position: absolute;
+    width: 480px;
+    height: 350px;
+    backface-visibility: hidden;
 }
-
-.servicos ul li{
-     width: 18%;
-     list-style: none; 
-     padding-right: 5px;
+  
+.back {
+    background: lightgreen;
+    transform: rotateY(180deg);
 }
+  
+.servicos:hover .virar {
+    transform: rotateY(180deg);
+}
+  
 
 .img_servico{
-    width: 100%;
-    height: 100%;
+    width: 480px;
+    height: 350px;
 }
 
 /* ##################### FIM SERVIÇO ################################################ */
