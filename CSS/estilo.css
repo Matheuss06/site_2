@@ -350,8 +350,10 @@ header{
 .back {
     background-color: rgb(0, 81, 255);
     transform: rotateY(180deg);
+    font-size: 15px;
+    text-align: center;
 }
-  
+
 .servicos:hover .virar {
     transform: rotateY(180deg);
 }
