@@ -120,8 +120,8 @@
         <div class="flex2 margin cor_azul">
 
             <div id="Sobre">
-                <span class="flex texto_sobre tamanhosb">
-                    <h1 class="titulo alinhar">
+                <span class="flex">
+                    <h1 class="titulo">
                         Sobre nós
                         <img src="images/linha.svg" class="linha2">
                     </h1>
@@ -189,6 +189,7 @@
         </div>
 
         <hr class="borda">
+        
 
     <script>
         var app = angular.module('meuApp', []);
@@ -227,9 +228,10 @@
             }
         })
     </script>
-    <?php include 'footer.html'?>
 
+    <?php include 'footer.html'?>
 </div>
+
 
 </body>
 
