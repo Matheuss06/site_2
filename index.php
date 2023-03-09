@@ -13,7 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <title>Ares Cold</title>
 </head>
-<body ng-app="meuApp" ng-controller="Controlador" style="background-color: #bcc0f5;";>
+<body ng-app="meuApp" ng-controller="Controlador" class="fundocontainer">
    
     <a href="#topo">
         <span class="quadrado">
@@ -42,7 +42,7 @@
         <section class="visao cor_azul">
 
             <article class="imagens">
-                <img src="images/visao.png" alt="Visão" class="imagens">
+                <img src="images/visao.png" alt="Visão" class="imagens_visao">
                     <div class="texto">
                         <h4>Visão</h4>    
                         <p class="texto_p">
@@ -52,17 +52,17 @@
             </article>
 
             <article class="imagens">
-                <img src="images/alvo.png" alt="Missão" class="imagens">
+                <img src="images/alvo.png" alt="Missão" class="imagens_visao">
                     <div class="texto">
                         <h4>Missão</h4>    
                         <p class="texto_p">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores. lorem
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae magnam nostrum numquam repudiandae laudantium delectus asperiores.
                         </p>
                     </div>
             </article>
 
             <article class="imagens">
-                <img src="images/dinheiro.png" alt="Valores" class="imagens">
+                <img src="images/dinheiro.png" alt="Valores" class="imagens_visao">
                     <div class="texto">
                         <h4> Valores</h4>
                         <p class="texto_p">   
@@ -184,9 +184,11 @@
                     <div><a href="produto_detalhe.php?id=17"><img src="images/energia_solar_solo.png" alt="Kit Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=18"><img src="images/caixa_energiasolar.png" alt="Combo Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=19"><img src="images/placasolar_black.png" alt="Kit 6 Placas de Energia Solar" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_duas.png" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_black.png" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
                 </div>
         </div>
+
+        <hr class="borda">
 
     <script>
         var app = angular.module('meuApp', []);

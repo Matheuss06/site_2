@@ -22,7 +22,8 @@ $id = $_GET['id'];
 </head>
 <body>
 
-<header class="borda">   
+<header style="background-color: white;">
+      
         <div class="logo">
             <a href="index.php">
                 <img src="images/logo_arescold.png" alt="" class="tamanhologo">
@@ -34,26 +35,27 @@ $id = $_GET['id'];
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="drop_link">
-                <a href="index.php">Home</a>
-                <a href="index.php#Servicos">Serviços</a>
-                <a href="index.php#Sobre">Sobre Nós</a>
-                <a href="index.php#Produtos">Produtos</a>
-                <a href="index.php#Contato">Contato</a>
+                <a href="#Home">Home</a>
+                <a href="#Servicos">Serviços</a>
+                <a href="#Sobre">Sobre Nós</a>
+                <a href="#Produtos">Produtos</a>
+                <a href="#Contato">Contato</a>
             </div>
         </div>
 
         <nav class="menu">
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="index.php#Servicos">Serviços</a></li>
-                <li><a href="index.php#Sobre">Sobre Nós</a></li>
-                <li><a href="index.php#Produtos">Produtos</a></li>
-                <li><a href="index.php#Contato">Contato</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Servicos">Serviços</a></li>
+                <li><a href="#Sobre">Sobre Nós</a></li>
+                <li><a href="#Produtos">Produtos</a></li>
+                <li><a href="#Contato">Contato</a></li>
             </ul>
         </nav>
+            
 </header>
 
-<div style="background-color: aliceblue; margin-top: 0;">
+<div style="background-color: aliceblue;">
     <section class="container">
         <div class="flex detalhes">
             

@@ -13,8 +13,12 @@ body{
     box-shadow: -5px 0 5px -5px rgba(0, 38, 255, 0.5), 5px 0 5px -5px rgba(0, 183, 255, 0.75);
 }
 
+.fundocontainer{
+    background-color: #c2c5f3;;
+}
+
 .cor_azul{
-    background-color: rgb(1, 152, 253);
+    background-color: rgb(100, 145, 243);
 }
 
 .fundo{
@@ -90,7 +94,7 @@ a{
     display: flex;
     justify-content: center;
     top: 90%;
-    left: 95%;
+    left: 96%;
     align-items: center;
     cursor: url(../images/cursor-pointer.cur), pointer;
     transition: 0.2s ease-in;
@@ -111,7 +115,7 @@ header{
 }
 
 .logo{
-    padding-right: 50px;
+    margin-left: 10px;
 }
 
 .tamanhologo{
@@ -121,6 +125,7 @@ header{
 
 .menu{
     margin: 30px;
+    margin-right: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,33 +245,33 @@ header{
 /* ##################### INICIO VISAO ######################################### */
 
 .visao{
-    background-color: rgb(0, 81, 255);
+    background-color: rgb(100, 145, 243);
     display: flex;
     justify-content: space-around;
-
 }
 
-.texto_visao{
-    background-color: rgb(255, 255, 255);
-
+.imagens_visao{
+    width: 150px;
 }
 
 .imagens{
-    width: 150px;
-    margin-top: 5px;
+    margin-top: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .texto{
-    background-color: rgb(0, 81, 255);
     font-weight: bold;
-    font-size: x-large;
+    font-size: 30px;
     text-align: center;
 }
 
 .texto_p{
-    font-size: 15px;
-    width: 180px;
-    text-align: start;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
 }
 
 /* ##################### FIM VISAO ################################################ */
@@ -277,14 +282,15 @@ header{
 .produtos{
     display: flex;
     justify-content: space-around;
-    
+    margin-bottom: 50px;
 }
 
 .imagens_prod{
     margin: 0px 50px;
-    border: 1px solid white;
+    border: 1px solid #eaedef;
     width: 250px;
     height: 100%;
+    border-radius: 10px;
     cursor: url(../images/cursor-pointer.cur), pointer;   
 }
 
@@ -300,10 +306,10 @@ header{
 .selecionar{
     display: flex;
     justify-content: space-around;
-    cursor: pointer;
     font-weight: bold;
+    font-size: 20px;
     padding: 10px;
-    border: 1px solid white;
+    border: 1px solid #eaedef;
     cursor: url(../images/cursor-pointer.cur), pointer;
 }
 
@@ -312,6 +318,7 @@ header{
     font-weight: bold;
     padding: 10px;
     border: 1px solid  rgb(112, 188, 211);
+
 }
 
 .w50{
@@ -390,7 +397,7 @@ header{
 /* ##################### INICIO PRODUTO DETALHES ################################## */
 
 .detalhes{
-    margin-top: 50px;
+    padding: 50px 5px;
 }
 
 .img_detalhe{
@@ -402,6 +409,8 @@ header{
 }
 
 .borda{
+    border: none;
+    height: 1px;
     box-shadow: .125rem -.125rem 1rem rgba(2, 19, 250, 0.5), .125rem .125rem 1rem rgba(4, 0, 247, 0.5);
 }
 
