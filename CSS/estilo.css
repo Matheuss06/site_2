@@ -279,6 +279,11 @@ header{
 
 /* ##################### INCIO PRODUTO ############################################ */
 
+.prod_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .produtos{
     display: flex;
     justify-content: space-around;
@@ -322,7 +327,7 @@ header{
 }
 
 .w50{
-    width: 50%;
+    width: 700px;
     margin: 20px auto;
 }
 
@@ -330,6 +335,12 @@ header{
 
 
 /* ##################### INCIO SERVIÇO ############################################ */
+
+.servico{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
 
 .servicos {
     background: transparent;
@@ -356,7 +367,7 @@ header{
 }
   
 .back {
-    background-color: rgb(0, 81, 255);
+    background-color:  rgb(100, 145, 243);
     transform: rotateY(180deg);
     font-size: 15px;
     text-align: center;
@@ -550,8 +561,6 @@ header{
 
 /* ###### 1800PX ###### */
 
-
-
 @media screen and (max-width: 1800px){
 
 /* PRODUTOS */    
@@ -568,6 +577,18 @@ header{
 
 }
 
+
+/* ###### 1700PX ###### */
+
+@media screen and (max-width: 1700px){
+
+/* SERVIÇOS */
+
+.servico{
+    flex-wrap: wrap;
+}
+
+}
 /* ###### 1600PX ###### */
 
 @media screen and (max-width: 1600px){
@@ -579,20 +600,6 @@ header{
     width: 100%;
 }
 
-/* SERVIÇOS */
-.servicos{
-    flex-direction: row;
-}
-
-.servicos ul{
-    flex-wrap: wrap;
-}
-
-.servicos ul li{
-    width: 80%;
-    margin-bottom: 10px;
-    text-align: start;
-}
 }
 
 /* ###### 1200PX ###### */
@@ -640,25 +647,6 @@ header{
     justify-content: center;
 }
 
-
-/* SERVIÇOS */
-
-
-.servicos{
-    flex-direction: row;
-}
-
-.servicos ul{
-    flex-wrap: wrap;
-}
-
-.servicos ul li{
-    width: 80%;
-    margin-bottom: 10px;
-    text-align: start;
-}
-
-
 /* SOBRE NÓS */
 
 .flex2{
@@ -699,7 +687,7 @@ header{
 }
 
 .w50{
-    width: 100%;
+    width: 700px;
 }
 
 /* FOOTER */
@@ -747,34 +735,105 @@ header{
 
 }
 
-/* ###### 800PX ###### */
+/* ###### 900PX ###### */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
 
 /* VISÃO */
 
 .visao{
-    display: inline-block;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
-.imagens{
-    width: 200px;
-    margin: 0 auto;
-    margin-top: 50px;
+/* PRODUTOS */
+
+.prod_flex{
+    display: inline;
+    align-items: center;
+    text-align: center;
 }
 
-h4{
-    font-weight: bold;
-    font-size: 40px;
-    margin: 0;
+.produtos{
+    margin-top: 10px;
+}
+
+.w50{
+    width: 90%;
+}
+}
+
+/* ###### 500PX ###### */
+
+@media screen and (max-width: 500px){
+
+/* SERVIÇO */
+
+.img_servico{
+    width: 350px;
+    height: 250px;
+}
+
+.front, .back {
+    width: 350px;
+    height: 250px;
+    font-size: 11px;
+}
+  
+.virar {
+    width: 350px;
+    height: 250px;
+}
+
 
 }
+
+/* ###### 300PX ###### */
+
+@media screen and (max-width: 300px){
+
+/* HEADER */
+
+.tamanhologo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+/* VISÃO */
 
 .texto_p{
-    font-size: 20px;
-    width: 480px;
-    text-align: center;
-    transform: translateX(-145px);
+    width: 270px;
+}
+
+/* SERVIÇO */
+
+.img_servico{
+    width: 250px;
+    height: 200px;
+}
+
+.front, .back {
+    width: 250px;
+    height: 200px;
+    font-size: 10px;
+}
+  
+.virar {
+    width: 250px;
+    height: 200px;
+}
+
+/* SOBRE NÓS */
+
+.tamanhosb{
+    margin-right: 0;
+}
+
+.responsivo_img{
+    width: 250px;
+}
+
+/* PRODUTOS */
+.imagens_prod{
+    margin: 0;
 }
 }

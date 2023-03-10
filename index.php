@@ -72,12 +72,12 @@
             </article>
         </section>
 
-    <div id="divservico">
+    <div>
         <div id="Servicos">
             <h1 class="titulo">Serviços<img src="images/linha.svg" class="linha2"></h1> 
         </div>
 
-        <div class="flex">
+        <div class="servico">
 
             <div class="servicos">
                 <div class="virar">
@@ -134,7 +134,7 @@
             </div>
 
             <span class="tamanhosb">
-                <img src="images/logo_arescold_preto.png" alt="logotipo" style="margin: 25px;">
+                <img src="images/logo_arescold_preto.png" alt="logotipo" class="responsivo_img">
             </span>
         </div>
             
@@ -147,7 +147,7 @@
                 </h1> 
             </div>
 
-            <div class="flex w50">
+            <div class="prod_flex w50">
                     <div ng-mouseover="funcaoArCondicionado()" class="selecionar">Ar condicionado</div>
                     <div ng-mouseover="funcaoInverter()" class="selecionar">Ar condicionado Inverter</div>
                     <div ng-mouseover="funcaoMultiSplit()" class="selecionar">Multi Split</div>
