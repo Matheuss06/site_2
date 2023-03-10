@@ -45,11 +45,11 @@ $id = $_GET['id'];
 
         <nav class="menu">
             <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#Servicos">Serviços</a></li>
-                <li><a href="#Sobre">Sobre Nós</a></li>
-                <li><a href="#Produtos">Produtos</a></li>
-                <li><a href="#Contato">Contato</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#Servicos">Serviços</a></li>
+                <li><a href="index.php#Sobre">Sobre Nós</a></li>
+                <li><a href="index.php#Produtos">Produtos</a></li>
+                <li><a href="index.php#Contato">Contato</a></li>
             </ul>
         </nav>
             
@@ -57,7 +57,7 @@ $id = $_GET['id'];
 
 <div style="background-color: aliceblue;">
     <section class="container">
-        <div class="flex detalhes">
+        <div class="flex_detalhes detalhes">
             
             <div class="div_img">
                 <img src="<?php echo $dado['imagem']; ?>" alt="Imagem do <?php echo $dado['nome']; ?>" class="img_detalhe">
@@ -67,10 +67,15 @@ $id = $_GET['id'];
                 <p class="font_tamanho titulo_detalhe"><?php echo $dado['nome']; ?>
                     <img src="images/linha.svg" class="linha4">
                 </p>
+
+                <div class="vermais">
+                    <?php echo mb_strimwidth($dado['descricao'],0,250,'<a href="#detalhes" class="text_ver">... Ver mais</a>');?>
+                </div>
             </div>
         </div>
         <hr class="borda" style="border-color:rgba(2, 19, 250, 0.5);">
-        <div>
+        
+        <div class="distancia_detalhes" id="detalhes">
             <h3 class="titulo_desc">Detalhe do Produto</h3>
             <p class="desc_detalhe">
                 <?php echo $dado['descricao'];?>
@@ -82,4 +87,11 @@ $id = $_GET['id'];
 <?php include 'footer.html';?>
 </div>
 </body>
+
+<script>
+    window.scroll({
+        top: 0,
+        behavior: 'smooth'
+    })
+</script>
 </html>

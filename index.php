@@ -148,10 +148,10 @@
             </div>
 
             <div class="prod_flex w50">
-                    <div ng-mouseover="funcaoArCondicionado()" class="selecionar">Ar condicionado</div>
-                    <div ng-mouseover="funcaoInverter()" class="selecionar">Ar condicionado Inverter</div>
-                    <div ng-mouseover="funcaoMultiSplit()" class="selecionar">Multi Split</div>
-                    <div ng-mouseover="funcaoEnergiaSolar()" class="selecionar">Energia solar</div>
+                    <div ng-click="funcaoArCondicionado()" class="selecionar">Ar condicionado</div>
+                    <div ng-click="funcaoInverter()" class="selecionar">Ar condicionado Inverter</div>
+                    <div ng-click="funcaoMultiSplit()" class="selecionar">Multi Split</div>
+                    <div ng-click="funcaoEnergiaSolar()" class="selecionar">Energia solar</div>
             </div>
 
             
@@ -184,7 +184,7 @@
                     <div><a href="produto_detalhe.php?id=17"><img src="images/energia_solar_solo.png" alt="Kit Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=18"><img src="images/caixa_energiasolar.png" alt="Combo Energia Solar" class="imagens_prod"></div></a>
                     <div><a href="produto_detalhe.php?id=19"><img src="images/placasolar_black.png" alt="Kit 6 Placas de Energia Solar" class="imagens_prod"></div></a>
-                    <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_black.png" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
+                    <div><a href="produto_detalhe.php?id=20"><img src="images/placasolar_duas.png" alt="Placa de Energia Solar" class="imagens_prod"></div></a>
                 </div>
         </div>
 
